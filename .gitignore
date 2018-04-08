@@ -1,2 +1,5 @@
 # Logs folder
 logs/
+
+# Application production configuration
+public/config.php
