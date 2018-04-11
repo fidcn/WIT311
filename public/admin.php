@@ -223,7 +223,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
   <div class="container">
 		<div class="site-branding">
 			
-		  					<p class="site-title"><a href="http://demo.themetrail.com/realty/" rel="home"><img width="124" height="23" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/logo.png" class="site-logo" alt="" srcset="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/logo@2x.png 2x" /></a></p>
+		  					<p class="site-title"><a href="https://311.dchr.host" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
 			
 	    	    <a id="toggle-navigation" class="navbar-togglex" href="#"><i></i></a>
 			<div class="mobile-menu-overlay hide"></div>
@@ -288,7 +288,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	<div id="page-user-favorites" class="container">
 
 				<style>.text-left{ text-align: left; } </style>
-		<h1 class="section-title style1 text-left"><span>My Favorites</span></h1>
+		<h1 class="section-title style1 text-left"><span>My Tickets</span></h1>
 
 		
 			
@@ -307,37 +307,37 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<a href="http://demo.themetrail.com/realty/property/futuristic-nest/">
 		<figure class="property-thumbnail">
-			<img width="600" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-600x300.jpg" class=" wp-post-image" alt="" />			<figcaption>
+			<img width="600" height="300" src="./images/report/graffiti.jpeg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
-					<h4 class="address">125 Oakley Street, London, UK</h4>
-					<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the ..</p>
+					<h4 class="address">Beatty Hall</h4>
+					<p>Found some grafitti writing near the back entrance of Beatty Hall, please remove.</p>
 					</div>
 											<div class="property-tag tag-left">
-							Rented Out						</div>
+							Closed						</div>
 							</figcaption>
 		</figure>
 	</a>
 
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/futuristic-nest/"><h3 class="title">Futuristic Nest</h3></a>
+			<a href="http://demo.themetrail.com/realty/property/futuristic-nest/"><h3 class="title">Graffiti Near Beatty</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
 						<div class="meta-title"><i class="icon-size"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Size">1500 sq ft</div>
+						<div class="meta-data" data-toggle="tooltip" title="Size">Beatty Hall</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-rooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Rooms">8 Rooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Rooms">Edgar Romero</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bedrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">3 Bedrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">Vandalism</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bathrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">2 Bathrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Student</div>
 					</div>
 							</div>
 		
@@ -345,7 +345,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<div class="property-price">
 
 			<div class="price-tag">
-				$5,000&nbsp; per month			</div>
+				Updated 6&nbsp;Hours ago</div>
 
 			<div class="property-icons">
 									<span style="position: relative">
@@ -365,7 +365,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 		</div><!-- .property-price -->
 
-	</div><!-- .property-content -->
+	</div><!-- .property-content --> <!--
 
 	
 </div><!-- .property-item -->
@@ -380,10 +380,10 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<a href="http://demo.themetrail.com/realty/property/westminster-beauty/">
 		<figure class="property-thumbnail">
-			<img width="600" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-cozy-600x300.jpg" class=" wp-post-image" alt="" />			<figcaption>
+			<img width="600" height="300" src="./images/report/spill.jpg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
-					<h4 class="address">Birdcage Walk, London, UK</h4>
-					<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the ..</p>
+					<h4 class="address">Beatty Hall</h4>
+					<p>Someone spilled coffee all near the drinks</p>
 					</div>
 								</figcaption>
 		</figure>
@@ -391,24 +391,24 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/westminster-beauty/"><h3 class="title">Westminster Beauty</h3></a>
+			<a href="http://demo.themetrail.com/realty/property/westminster-beauty/"><h3 class="title">Spill in cafeteria</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
 						<div class="meta-title"><i class="icon-size"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Size">600 sq ft</div>
+						<div class="meta-data" data-toggle="tooltip" title="Size">Beatty Cafeteria</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-rooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Rooms">5 Rooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Rooms">Sean Guillen</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bedrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">2 Bedrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">Accident</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bathrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">2 Bathrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Student</div>
 					</div>
 							</div>
 		
@@ -416,7 +416,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<div class="property-price">
 
 			<div class="price-tag">
-				$500,000			</div>
+				Updated a minute ago			</div>
 
 			<div class="property-icons">
 									<span style="position: relative">
@@ -451,10 +451,10 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/">
 		<figure class="property-thumbnail">
-			<img width="600" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-living-room-light-600x300.jpg" class=" wp-post-image" alt="" />			<figcaption>
+			<img width="600" height="300" src="./images/report/projector.jpg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
-					<h4 class="address">20 Stamford Street, London, United Kingdom</h4>
-					<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the ..</p>
+					<h4 class="address">Wentworth Hall</h4>
+					<p>I need the projector in this room to teach, but found it broken. Not sure if fell or someone broke it.</p>
 					</div>
 								</figcaption>
 		</figure>
@@ -462,24 +462,24 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/"><h3 class="title">Apartment On Stamford</h3></a>
+			<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/"><h3 class="title">Broken projector</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
 						<div class="meta-title"><i class="icon-size"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Size">350 sq ft</div>
+						<div class="meta-data" data-toggle="tooltip" title="Size">Room 310</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-rooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Rooms">3 Rooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Rooms">Paris Bently</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bedrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">1 Bedroom</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">Hardware</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bathrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">1 Bathroom</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Faculty</div>
 					</div>
 							</div>
 		
@@ -487,7 +487,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<div class="property-price">
 
 			<div class="price-tag">
-				$3,000&nbsp; per month			</div>
+				Updated 2 &nbsp;hours ago		</div>
 
 			<div class="property-icons">
 									<span style="position: relative">
@@ -522,10 +522,10 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<a href="http://demo.themetrail.com/realty/property/spacious-mansion/">
 		<figure class="property-thumbnail">
-			<img width="600" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-villa-pool-4-600x300.jpg" class=" wp-post-image" alt="" />			<figcaption>
+			<img width="600" height="300" src="./images/report/westlot.png" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
-					<h4 class="address">3 Wilton Crescent, London, UK</h4>
-					<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the ..</p>
+					<h4 class="address">West Lot Parking Lot</h4>
+					<p>Broken Street Light in the West Lot Parking. Need to be fixed for student safety</p>
 					</div>
 								</figcaption>
 		</figure>
@@ -533,24 +533,24 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/spacious-mansion/"><h3 class="title">Spacious Mansion</h3></a>
+			<a href="http://demo.themetrail.com/realty/property/spacious-mansion/"><h3 class="title">Broken street light</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
 						<div class="meta-title"><i class="icon-size"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Size">7500 sq ft</div>
+						<div class="meta-data" data-toggle="tooltip" title="Size">West Lot Parking</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-rooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Rooms">8 Rooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Rooms">Annamaria Wenner</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bedrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">9 Bedrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">Accident</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bathrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">3 Bathrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Faculty</div>
 					</div>
 							</div>
 		
@@ -558,7 +558,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<div class="property-price">
 
 			<div class="price-tag">
-				$950,000			</div>
+				Updated 10 minutes ago			</div>
 
 			<div class="property-icons">
 									<span style="position: relative">
@@ -593,10 +593,10 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<a href="http://demo.themetrail.com/realty/property/country-house/">
 		<figure class="property-thumbnail">
-			<img width="600" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-red-bricks-entrance-600x300.jpg" class=" wp-post-image" alt="" />			<figcaption>
+			<img width="600" height="300" src="./images/report/fire_alarm.jpg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
-					<h4 class="address">Great Dover Street, London, UK</h4>
-					<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the ..</p>
+					<h4 class="address">555 Huntington Avenue</h4>
+					<p>Fire alarm keeps going off in dorm. Very annoying when sleeping, need this fixed.</p>
 					</div>
 								</figcaption>
 		</figure>
@@ -604,24 +604,24 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/country-house/"><h3 class="title">Country House</h3></a>
+			<a href="http://demo.themetrail.com/realty/property/country-house/"><h3 class="title">Faulty Alarm</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
 						<div class="meta-title"><i class="icon-size"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Size">750 sq ft</div>
+						<div class="meta-data" data-toggle="tooltip" title="Size">Triple 5 Room 203</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-rooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Rooms">5 Rooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Rooms">Quinn Cunningham</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bedrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">2 Bedrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bedrooms">Hardware</div>
 					</div>
 									<div>
 						<div class="meta-title"><i class="icon-bathrooms"></i></div>
-						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">2 Bathrooms</div>
+						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Student</div>
 					</div>
 							</div>
 		
@@ -629,7 +629,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<div class="property-price">
 
 			<div class="price-tag">
-				$350,000			</div>
+				Updated 1 day ago			</div>
 
 			<div class="property-icons">
 									<span style="position: relative">
