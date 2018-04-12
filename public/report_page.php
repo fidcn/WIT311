@@ -215,13 +215,9 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</div>
   <div class="container">
 		<div class="site-branding">
-<<<<<<< HEAD
-		  					<p class="site-title"><a href="https://311.dchr.host" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
-=======
 
 		  					<p class="site-title"><a href="index.php" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
 
->>>>>>> 4ca0879312044323a763801019bd167e87caf75d
 	    	    <a id="toggle-navigation" class="navbar-togglex" href="#"><i></i></a>
 			<div class="mobile-menu-overlay hide"></div>
     </div>
