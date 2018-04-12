@@ -119,7 +119,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 			ul#sidebar li.widget .wpcf7 input:not([type='submit']):focus,
 			#footer li.widget .wpcf7 input:not([type='submit']):focus,
 			.chosen-container.chosen-container-active .chosen-single, .chosen-container .chosen-drop {
-				border-color: #43becc			}
+				border-color: #fff;			}
 
 			/*
 			.primary-tooltips .tooltip.top .tooltip-arrow,
@@ -173,7 +173,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 /* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
-    float: none;
+    float: left;
     border: none;
     outline: none;
     cursor: pointer;
@@ -307,38 +307,66 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 			
 		<h1 class="section-title style1 text-left"><span>Broken Washing Machine/Dryer</span></h1>
-		<h5> Thursday 10:15 AM mazzarellal </h5>
+		<p> Thursday 10:15 AM mazzarellal </p>
 <h3 class="section-title"><span></span></h3>
-	<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Public Reply</button>
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 10px;
+    border: 1px solid #fff;
+    border-top: none;
+}
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Public Reply')">Public Reply</button>
   <button class="tablinks" onclick="openCity(event, 'Internal Note')">Internal Note</button>
 
-<input type="text" id="subdomaintwo" value="Ticket ID: 510" disabled/>
-<input type="text" id="subdomaintwo" value="Name: LizMary Mazzarella" disabled/>
-<input type="text" id="subdomaintwo" value="Phone Number: 555-555-5555" disabled/>
-<input type="text" id="subdomaintwo" value="Address: 555 Huntington Ave" disabled/>
-
-<textarea rows="4" cols="50">
-
-</textarea>
-<textarea rows="4" cols="50">
-
-</textarea>
-<div id="London" class="tabcontent">
-<textarea rows="4" cols="50">
 </div>
 
 <div id="Public Reply" class="tabcontent">
-<textarea rows="4" cols="50">
+  <h3></h3>
+  <p></p>
 </div>
 
 <div id="Internal Note" class="tabcontent">
-<textarea rows="4" cols="50">
-
-
+  <h3></h3>
+  <p></p> 
 </div>
-
-
 
 <script>
 function openCity(evt, cityName) {
@@ -352,6 +380,47 @@ function openCity(evt, cityName) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+<input type="text" id="subdomaintwo" value="Ticket ID: 510" disabled/>
+<input type="text" id="subdomaintwo" value="Name: LizMary Mazzarella" disabled/>
+<input type="text" id="subdomaintwo" value="Phone Number: 555-555-5555" disabled/>
+<input type="text" id="subdomaintwo" value="Address: 555 Huntington Ave" disabled/>
+<h3 class="section-title"><span></span></h3>
+<p>Mazzarellal<br>
+Hello PWD, <br><br>
+The washing machine in 555's basement has stopped working. Could this be fixed soon?<br>
+Thanks, <br><br>
+Liz<br> </p>
+<form action="/action_page.php">
+<select name="submit">
+  <option value="open">Submit as OPEN</option>
+  <option value="closed">Submit as CLOSED</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+
+
+
+
+</div>
+
+
+
+<script>
+function openCity(evt, contentName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(contentName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 </script>
@@ -392,9 +461,7 @@ function openCity(evt, cityName) {
 		
 	</div><!-- Property Carousel -->
 
-	<div class="loader-container">
-		<div class="svg-loader"></div>
-	</div>
+	
 </div><!-- .property-image-container -->
 	
 			
@@ -724,37 +791,11 @@ function openCity(evt, cityName) {
 			google.maps.event.addDomListener(window, 'load', map_controls);
 		</script>
 		
-			<div class="map-wrapper" style="width: 100%; height: 400px">
-
-									<ul class="map-controls list-unstyled">
-						<li><a href="#" class="control zoom-in" id="zoom-in-595411243"><i class="icon-add"></i></a></li>
-						<li><a href="#" class="control zoom-out" id="zoom-out-595411243"><i class="icon-subtract"></i></a></li>
-						<li><a href="#" class="control map-type" id="map-type-595411243">
-							<i class="icon-image"></i>
-							<ul class="list-unstyled">
-								<li id="map-type-roadmap-595411243" class="map-type">Roadmap</li>
-								<li id="map-type-satellite-595411243" class="map-type">Satellite</li>
-								<li id="map-type-hybrid-595411243" class="map-type">Hybrid</li>
-								<li id="map-type-terrain-595411243" class="map-type">Terrain</li>
-							</ul>
-						</a></li>
-						<li><a href="#" id="current-location-595411243" class="control"><i class="icon-crosshair"></i> My Location</a></li>
-					</ul>
-				
-				<div id="map" class="google-map" style="height: 400px">
-					<div class="loader-container">
-						<div class="svg-loader"></div>
-					</div>
-				</div>
-
-			</div>
+			
 
 			
 			
-							</section>
 				
-				
-					
 
 				
 				
