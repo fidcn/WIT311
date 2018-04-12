@@ -248,55 +248,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 			<div class="mobile-menu-overlay hide"></div>
     </div>
 
-		<nav class="main-navigation" id="navigation">
-			<ul id="menu-main-menu" class="primary-menu"><li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256"><a href="#">Home</a>
-<ul class="sub-menu">
-	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="http://demo.themetrail.com/realty/slideshow-property/">Property Slideshow (Full Width)</a></li>
-	<li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a href="http://demo.themetrail.com/realty/slideshow-search/">Property Slideshow (Search)</a></li>
-	<li id="menu-item-1154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1154"><a href="http://demo.themetrail.com/realty/">Property Map (Full Width)</a></li>
-	<li id="menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-863"><a href="http://demo.themetrail.com/realty/home-single-property/">Single Property Home Page</a></li>
-	<li id="menu-item-268" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-268"><a href="#">Intro Pages</a>
-	<ul class="sub-menu">
-		<li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="http://demo.themetrail.com/realty/intro-fullscreen-image/">Fullscreen Image</a></li>
-		<li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269"><a href="http://demo.themetrail.com/realty/intro-fullscreen-slideshow/">Fullscreen Slideshow</a></li>
-		<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246"><a href="http://demo.themetrail.com/realty/intro-fullscreen-video/">Fullscreen Video</a></li>
-	</ul>
-</li>
-</ul>
-</li>
-<li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-258"><a href="#">Properties</a>
-<ul class="sub-menu">
-	<li id="menu-item-1157" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1157"><a href="#">Single Property</a>
-	<ul class="sub-menu">
-		<li id="menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-property current-menu-item menu-item-1158"><a href="http://demo.themetrail.com/realty/property/futuristic-nest/">Single Property (Full-Width)</a></li>
-		<li id="menu-item-1159" class="menu-item menu-item-type-post_type menu-item-object-property menu-item-1159"><a href="http://demo.themetrail.com/realty/property/for-the-minimalist/">Single Property (Boxed)</a></li>
-	</ul>
-</li>
-	<li id="menu-item-1160" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1160"><a href="#">Property Maps</a>
-	<ul class="sub-menu">
-		<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249"><a href="http://demo.themetrail.com/realty/property-map/">Property Map (Horizontal)</a></li>
-		<li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="http://demo.themetrail.com/realty/property-map-vertical/">Property Map (Vertical)</a></li>
-	</ul>
-</li>
-	<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="http://demo.themetrail.com/realty/property-payments/">Property Payments</a></li>
-	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="http://demo.themetrail.com/realty/compare/">Compare Properties</a></li>
-	<li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="http://demo.themetrail.com/realty/favorites/">Favorite Properties</a></li>
-	<li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-250"><a href="http://demo.themetrail.com/realty/property-submit/">Submit Property</a></li>
-	<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-247"><a href="http://demo.themetrail.com/realty/my-properties/">My Properties</a></li>
-</ul>
-</li>
-<li id="menu-item-257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-257"><a href="#">Features</a>
-<ul class="sub-menu">
-	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="http://demo.themetrail.com/realty/shortcodes/">Shortcodes</a></li>
-	<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-248"><a href="http://demo.themetrail.com/realty/profile/">Profile</a></li>
-	<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="http://demo.themetrail.com/realty/agents/">Agents</a></li>
-	<li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239"><a href="http://demo.themetrail.com/realty/acf/">Advanced Custom Fields Pro</a></li>
-	<li id="menu-item-1083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1083"><a href="http://demo.themetrail.com/realty/doesnt-exist/">404 Error Page</a></li>
-</ul>
-</li>
-<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-241"><a href="http://demo.themetrail.com/realty/blog/">Blog</a></li>
-<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="http://demo.themetrail.com/realty/contact/">Contact</a></li>
-</ul>		</nav>
+		
   </div>
 
 </header>
@@ -306,13 +258,28 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <div id="page-user-favorites" class="container">
 
 			
-		<h1 class="section-title style1 text-left"><span>Broken Washing Machine/Dryer</span></h1>
+		<h1 class="section-title style1 text-left"><span>Graffiti Near Beatty </span></h1>
 		<p> Thursday 10:15 AM mazzarellal </p>
 <h3 class="section-title"><span></span></h3>
+<select name="estate_property_type" id="estate_property_type" class="form-control chosen-select">
+										<option value="all">PWD Employee:</option>
+								    								    						        <option value="apartment" >
+					            Charles Wiseman					        </option>
+								    						        <option value="house" >
+					           Mohammed Anwaruddin						        </option>
+								    						        <option value="office" >
+					            Andrew DeChristopher					        </option>
+								    						        <option value="villa" >
+					            Christopher McIntyre					        </option>
+								    									</select>
+																		<br>
+																		<br>
 <input type="text" id="subdomaintwo" value="Ticket ID: #510" disabled/>
 <input type="text" id="subdomaintwo" value="Name: LizMary Mazzarella" disabled/>
 <input type="text" id="subdomaintwo" value="Phone Number: 555-555-5555" disabled/>
 <input type="text" id="subdomaintwo" value="Address: 555 Huntington Ave" disabled/>
+<br>
+<br>
 <style>
 * {box-sizing: border-box}
 
@@ -346,6 +313,7 @@ body, html {
     display: none;
     padding: 100px 20px;
     height: 100%;
+	border: none;
 }
 
 #Home {background-color: fff;}
@@ -361,11 +329,19 @@ body, html {
 
 <div id="Home" class="tabcontent">
 <textarea rows="4" cols="50"></textarea>
+<form action="/action_page.php">
+  <input type="file" name="pic" accept="image/*">
+</form>
+<br>
 <input type="submit">Submit</input>
 </div>
 
 <div id="News" class="tabcontent">
 <textarea rows="4" cols="50"></textarea>
+<form action="/action_page.php">
+  <input type="file" name="pic" accept="image/*">
+</form>
+<br>
 <input type="submit">Submit</input>
 </div>
 
@@ -394,16 +370,22 @@ document.getElementById("defaultOpen").click();
 </body>
 
 <h3 class="section-title"><span></span></h3>
-Message from user: Mazzarellal<br>
+<b>Message from user: Mazzarellal<br>
 Hello PWD, <br><br>
-The washing machine in 555's basement has stopped working. Could this be fixed soon?<br>
+There is graffiti near Beatty Hall. Can someone come take a look at their earliest convenience?<br>
 Thanks, <br><br>
-Liz<br> </p>
+Liz</b><br> </p>
+<br>
+<img src="graffiti.jpeg" alt="Graffiti.jpeg" width="700" height="700">
+<br>
+<br>
 <form action="/action_page.php">
 <select name="submit">
   <option value="open">Submit as OPEN</option>
   <option value="closed">Submit as CLOSED</option>
 </select>
+<br>
+<br>
 <input type="submit" value="Submit">
 </form>
 
