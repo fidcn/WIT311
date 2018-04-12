@@ -412,10 +412,10 @@ function openCity(evt, contentName) {
 }
 </script>
 	</div>
-	<hr>
+	
 	<div id="property-layout-full-width">
 
-<
+
 
 
 		
@@ -456,7 +456,7 @@ function openCity(evt, contentName) {
 					
 								</div>
 
-			<
+			
 			
 			<script>
 				var map = null, markers = [], newMarkers = [], markerCluster = null, infobox = [], address = null;
@@ -1040,7 +1040,7 @@ function openCity(evt, contentName) {
 		      <div class="site-footer-top" id="footer-top">
         <div class="container">
           <div class="row">
-          <
+          
 	<div class="row">
 
 							
@@ -1101,7 +1101,7 @@ function openCity(evt, contentName) {
       </div>
 		
 					<div class="site-footer-bottom" id="footer-bottom">
-				<div class="container">
+					<				<div class="container">
 					<div class="row">
 								
 		</div>							</div>
