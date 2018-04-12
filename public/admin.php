@@ -268,7 +268,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</a>
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/futuristic-nest/"><h3 class="title">Graffiti Near Beatty</h3></a>
+			<a href="report_page.php">"><h3 class="title">Graffiti Near Beatty</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
