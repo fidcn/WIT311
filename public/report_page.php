@@ -310,81 +310,86 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<p> Thursday 10:15 AM mazzarellal </p>
 <h3 class="section-title"><span></span></h3>
 <style>
-body {font-family: Arial;}
+* {box-sizing: border-box}
 
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
 }
 
-/* Style the buttons inside the tab */
-.tab button {
-    background-color: fff;
+/* Style tab links */
+.tablink {
+    background-color: #fff;
+    color: black;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 5px 10px;
-    transition: 0.3s;
+    padding: 10px 10px;
     font-size: 17px;
+    width: 25%;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
+.tablink:hover {
+    background-color: fff;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #fff;
-}
-
-/* Style the tab content */
+/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
+    color: white;
     display: none;
-    padding: 6px 10px;
-    border: 1px solid #fff;
-    border-top: none;
+    padding: 100px 20px;
+    height: 100%;
 }
+
+#Home {background-color: fff;}
+#News {background-color: fff;}
+
 </style>
 </head>
 <body>
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Public Reply')">Public Reply</button>
-  <button class="tablinks" onclick="openCity(event, 'Internal Note')">Internal Note</button>
+<button class="tablink" onclick="openPage('Home', this, '#43becc')">Public Reply</button>
+<button class="tablink" onclick="openPage('News', this, '#43becc')" id="defaultOpen">Internal Note</button>
 
+
+<div id="Home" class="tabcontent">
+<textarea rows="4" cols="50"></textarea>
+<input type="submit">Submit</input>
 </div>
 
-<div id="Public Reply" class="tabcontent">
-  <h3></h3>
-  <p></p>
+<div id="News" class="tabcontent">
+<textarea rows="4" cols="50"></textarea>
+<input type="submit">Submit</input>
 </div>
 
-<div id="Internal Note" class="tabcontent">
-  <h3></h3>
-  <p></p> 
-</div>
+
+
 
 <script>
-function openCity(evt, cityName) {
+function openPage(pageName,elmnt,color) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    tablinks = document.getElementsByClassName("tablinks");
+    tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].style.backgroundColor = "";
     }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-</script>
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
 
-<input type="text" id="subdomaintwo" value="Ticket ID: 510" disabled/>
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+
+<input type="text" id="subdomaintwo" value="Ticket ID: #510" disabled/>
 <input type="text" id="subdomaintwo" value="Name: LizMary Mazzarella" disabled/>
 <input type="text" id="subdomaintwo" value="Phone Number: 555-555-5555" disabled/>
 <input type="text" id="subdomaintwo" value="Address: 555 Huntington Ave" disabled/>
