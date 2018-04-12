@@ -1,3 +1,6 @@
+<?php
+	require_once("config.php");
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -6,14 +9,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="http://demo.themetrail.com/realty/xmlrpc.php">
-<title>Open Tickets &#8211;</title>
+<title><?php echo INST_NAME; ?> | Open Tickets &#8211;</title>
                         <script>
                             /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
                             if ( typeof WebFontConfig === "undefined" ) {
                                 WebFontConfig = new Object();
                             }
                             WebFontConfig['google'] = {families: ['Source+Sans+Pro:400', 'Fira+Sans:400']};
-
                             (function() {
                                 var wf = document.createElement( 'script' );
                                 wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
@@ -46,8 +48,8 @@ img.emoji {
 }
 </style>
 <link rel='stylesheet' id='contact-form-7-css'  href='http://demo.themetrail.com/realty/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-main-min-css'  href='http://demo.themetrail.com/realty/wp-content/themes/realty/assets/css/theme-main.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-css'  href='http://demo.themetrail.com/realty/wp-content/themes/realty-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-main-min-css'  href='/css/theme-main.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-css'  href='/css/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='print-css'  href='http://demo.themetrail.com/realty/wp-content/themes/realty/print.css' type='text/css' media='print' />
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -61,7 +63,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <script type='text/javascript' src='http://demo.themetrail.com/realty/wp-content/themes/realty/lib/js/google-maps/google-maps.min.js'></script>
 <link rel='https://api.w.org/' href='http://demo.themetrail.com/realty/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://demo.themetrail.com/realty/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://demo.themetrail.com/realty/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://demo.themetrail.com/realty/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 4.9.5" />
 <link rel="canonical" href="http://demo.themetrail.com/realty/favorites/" />
 <link rel='shortlink' href='http://demo.themetrail.com/realty/?p=193' />
@@ -70,18 +72,14 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://demo.themetrail.com/realty/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><style type="text/css" title="dynamic-css" class="options-output">body, .section-title span{background-color:#ffffff;}#header{background-color:#fff;}.top-header, .top-header a, .site-branding, .site-title a, .site-description a, .primary-menu a{color:#787878;}#header{font-family:"Source Sans Pro";opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading #header,{opacity: 0;}.ie.wf-loading #header,{visibility: hidden;}h1, h2, h3, h4, h5, h6{font-family:"Source Sans Pro";font-weight:400;color:#42484b;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading h1, h2, h3, h4, h5, h6,{opacity: 0;}.ie.wf-loading h1, h2, h3, h4, h5, h6,{visibility: hidden;}body{font-family:"Fira Sans";font-weight:400;color:#787878;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading body,{opacity: 0;}.ie.wf-loading body,{visibility: hidden;}#footer{background-color:#333;}#footer-bottom{background-color:#2e2e2e;}#footer .widget-title, #footer p{color:#ffffff;}</style>		<style>
 			/* Theme Option: Color Accent */
-			
-			
 						.property-image-container,
 			.property-image-container .property-item,
 			.property-image-container .loader-container {
 				height: 600px;
 			}
-
 			.text-primary {
 				color: #43becc;
 			}
-
 						.btn-primary,
 			.btn-primary:focus,
 			input[type='submit'],
@@ -108,7 +106,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 					background-color: #43becc;
 				}
 			}
-
 			input:focus,
 			.form-control:focus,
 			input:active,
@@ -119,38 +116,31 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 			#footer li.widget .wpcf7 input:not([type='submit']):focus,
 			.chosen-container.chosen-container-active .chosen-single, .chosen-container .chosen-drop {
 				border-color: #43becc			}
-
 			/*
 			.primary-tooltips .tooltip.top .tooltip-arrow,
 			.arrow-down,
 			.sticky .entry-header {
 				border-top-color: #43becc;
 			}
-
 			.primary-tooltips .tooltip.right .tooltip-arrow,
 			.arrow-left {
 				border-right-color: #43becc;
 			}
-
 			.primary-tooltips .tooltip.bottom .tooltip-arrow,
 			.arrow-up {
 				border-bottom-color: #43becc;
 			}
-
 			.primary-tooltips .tooltip.left .tooltip-arrow,
 			.arrow-right,
 			.property-slider .description .arrow-right {
 				border-left-color: #43becc;
 			}
 			*/
-
 			.property-slider .title { background-color: #43becc; }
 			.property-slider .description .arrow-right { border-left-color: #43becc; }
 			.property-slider .description .arrow-left { border-right-color: #43becc; }
 			.input--filled label::before, .form-control:focus + label::before { border-color: #43becc !important }
-
 			.rtl .property-slider .description .arrow-right { border-right-color: #43becc; border-left-color: transparent !important; }
-
 			/* Theme Option: Color Header */
 			.top-header,
 			.top-header a,
@@ -162,51 +152,32 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 			}
 			.map-controls li:nth-child(4){ display:none; }
 						span.multiselect-native-select{position:relative}span.multiselect-native-select select{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px -1px -1px -3px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;left:50%;top:30px}.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}.multiselect-container .input-group{margin:5px}.multiselect-container>li{padding:0}.multiselect-container>li>a.multiselect-all label{font-weight:700}.multiselect-container>li.multiselect-group label{margin:0;padding:3px 20px 3px 20px;height:100%;font-weight:700}.multiselect-container>li.multiselect-group-clickable label{cursor:pointer}.multiselect-container>li>a{padding:0}.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:400;padding:3px 20px 3px 40px}.multiselect-container>li>a>label.radio,.multiselect-container>li>a>label.checkbox{margin:0}.multiselect-container>li>a>label>input[type=checkbox]{margin-bottom:5px}.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{padding:3px 20px 3px 40px}.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{margin-left:-20px;margin-right:0}
-
 		</style>
 		<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 <!--[if lt IE 9]>
 <script src="http://demo.themetrail.com/realty/wp-content/themes/realty/lib/js/html5.js"></script>
 <![endif]-->
-
 </head>
-
 <body class="page-template page-template-template-user-favorites page-template-template-user-favorites-php page page-id-193 logged-in wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
-
-
 <!-- <header id="header">
-
-	
 	<div class="top-header">
 		<div class="container">
 							<div class="top-header-sidebar">
 								<div class="textwidget"><a href="tel:00155522668890">+1 555 22 66 8890</a> · <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></div>
 						</div>
-			
 							<div class="top-header-links primary-tooltips">
-					
-
-	
-	
 	<a href="http://demo.themetrail.com/realty/favorites/">
 		<span class="desktop">Favorites (<span>5</span>)</span>
 		<span class="mobile" data-toggle="tooltip" data-placement="bottom" title="Favorites"><i class="icon-heart"></i></span>
 	</a>
-	
-	
 					<a href="http://demo.themetrail.com/realty/property-submit/">
 				<span class="desktop">Submit Property</span>
 				<span class="mobile" data-toggle="tooltip" data-placement="bottom" title="Submit Property"><i class="icon-pen"></i></span>
 			</a>
-		
-	
-	
 			<a href="http://demo.themetrail.com/realty/my-properties/">
 			<span class="desktop">My Properties</span>
 			<span class="mobile" data-toggle="tooltip" data-placement="bottom" title="My Properties"><i class="icon-home"></i></span>
 		</a>
-	
-	
 	<a href="http://demo.themetrail.com/realty/profile/">
 		<span class="desktop">Profile</span>
 		<span class="mobile" data-toggle="tooltip" data-placement="bottom" title="Profile"><i class="icon-account"></i></span>
@@ -215,22 +186,17 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<span class="desktop">Logout</span>
 		<span class="mobile" data-toggle="tooltip" data-placement="bottom" title="Logout"><i class="icon-logout"></i></span>
 	</a>
-
 				</div>
 		  		</div>
 	</div>
-
   <div class="container">
 		<div class="site-branding">
-			
 		  					<p class="site-title"><a href="https://311.dchr.host" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
-			
 	    	    <a id="toggle-navigation" class="navbar-togglex" href="#"><i></i></a>
 			<div class="mobile-menu-overlay hide"></div>
     </div>
-
 		<nav class="main-navigation" id="navigation">
-			<ul id="menu-main-menu" class="primary-menu"><li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256"><a href="#">Home</a> -->
+			<ul id="menu-main-menu" class="primary-menu"><li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256"><a href="#">Home</a>
 <ul class="sub-menu">
 	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="http://demo.themetrail.com/realty/slideshow-property/">Property Slideshow (Full Width)</a></li>
 	<li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a href="http://demo.themetrail.com/realty/slideshow-search/">Property Slideshow (Search)</a></li>
@@ -279,32 +245,15 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="http://demo.themetrail.com/realty/contact/">Contact</a></li>
 </ul>		</nav>
   </div>
-
-</header>
-
+</header>-->
 <div id="content">
-
-	
 	<div id="page-user-favorites" class="container">
-
 				<style>.text-left{ text-align: left; } </style>
 		<h1 class="section-title style1 text-left"><span>My Tickets</span></h1>
-
-		
-			
-			
-				
-				
 	      	<div class="property-items">
 		      	<ul class="row list-unstyled">
-
-							
-							
 																											<li class="col-lg-4 col-md-6">
-																	
-					      
 <div class="property-item border-box  featured">
-
 	<a href="http://demo.themetrail.com/realty/property/futuristic-nest/">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/graffiti.jpeg" class=" wp-post-image" alt="" />			<figcaption>
@@ -317,7 +266,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 							</figcaption>
 		</figure>
 	</a>
-
 	<div class="property-content content">
 		<div class="property-title">
 			<a href="http://demo.themetrail.com/realty/property/futuristic-nest/"><h3 class="title">Graffiti Near Beatty</h3></a>
@@ -340,13 +288,9 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Student</div>
 					</div>
 							</div>
-		
-		
 		<div class="property-price">
-
 			<div class="price-tag">
 				Updated 6&nbsp;Hours ago</div>
-
 			<div class="property-icons">
 									<span style="position: relative">
 						<div class="share-unit" style="display: none;">
@@ -357,27 +301,15 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						</div>
 						<i class="icon-share share-property" data-toggle="tooltip" data-original-title="Share" title="Share"></i>
 					</span>
-				
 				<i class="add-to-favorites icon-heart" data-fav-id="142" data-toggle="tooltip" title="Remove From Favorites"></i><a href="//vimeo.com/63241912" class="property-video-popup"><i class="icon-video-camera" data-toggle="tooltip" title="Watch Trailer"></i></a><i class="icon-add compare-property" data-compare-id="142" data-toggle="tooltip" title="Compare"></i>
-				
 			</div><!-- .property-icons -->
 			<div class="clearfix"></div>
-
 		</div><!-- .property-price -->
-
 	</div><!-- .property-content --> <!--
-
-	
 </div><!-- .property-item -->
-
 					      </li>
-
-				      
 																											<li class="col-lg-4 col-md-6">
-																	
-					      
 <div class="property-item border-box  featured">
-
 	<a href="http://demo.themetrail.com/realty/property/westminster-beauty/">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/spill.jpg" class=" wp-post-image" alt="" />			<figcaption>
@@ -388,7 +320,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 								</figcaption>
 		</figure>
 	</a>
-
 	<div class="property-content content">
 		<div class="property-title">
 			<a href="http://demo.themetrail.com/realty/property/westminster-beauty/"><h3 class="title">Spill in cafeteria</h3></a>
@@ -411,13 +342,9 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Student</div>
 					</div>
 							</div>
-		
-		
 		<div class="property-price">
-
 			<div class="price-tag">
 				Updated a minute ago			</div>
-
 			<div class="property-icons">
 									<span style="position: relative">
 						<div class="share-unit" style="display: none;">
@@ -428,27 +355,15 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						</div>
 						<i class="icon-share share-property" data-toggle="tooltip" data-original-title="Share" title="Share"></i>
 					</span>
-				
 				<i class="add-to-favorites icon-heart" data-fav-id="138" data-toggle="tooltip" title="Remove From Favorites"></i><i class="icon-add compare-property" data-compare-id="138" data-toggle="tooltip" title="Compare"></i>
-				
 			</div><!-- .property-icons -->
 			<div class="clearfix"></div>
-
 		</div><!-- .property-price -->
-
 	</div><!-- .property-content -->
-
-	
 </div><!-- .property-item -->
-
 					      </li>
-
-				      
 																											<li class="col-lg-4 col-md-6">
-																	
-					      
 <div class="property-item border-box  featured">
-
 	<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/projector.jpg" class=" wp-post-image" alt="" />			<figcaption>
@@ -459,7 +374,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 								</figcaption>
 		</figure>
 	</a>
-
 	<div class="property-content content">
 		<div class="property-title">
 			<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/"><h3 class="title">Broken projector</h3></a>
@@ -482,13 +396,9 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Faculty</div>
 					</div>
 							</div>
-		
-		
 		<div class="property-price">
-
 			<div class="price-tag">
 				Updated 2 &nbsp;hours ago		</div>
-
 			<div class="property-icons">
 									<span style="position: relative">
 						<div class="share-unit" style="display: none;">
@@ -499,27 +409,15 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						</div>
 						<i class="icon-share share-property" data-toggle="tooltip" data-original-title="Share" title="Share"></i>
 					</span>
-				
 				<i class="add-to-favorites icon-heart" data-fav-id="149" data-toggle="tooltip" title="Remove From Favorites"></i><i class="icon-add compare-property" data-compare-id="149" data-toggle="tooltip" title="Compare"></i>
-				
 			</div><!-- .property-icons -->
 			<div class="clearfix"></div>
-
 		</div><!-- .property-price -->
-
 	</div><!-- .property-content -->
-
-	
 </div><!-- .property-item -->
-
 					      </li>
-
-				      
 																											<li class="col-lg-4 col-md-6">
-																	
-					      
 <div class="property-item border-box  featured">
-
 	<a href="http://demo.themetrail.com/realty/property/spacious-mansion/">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/westlot.png" class=" wp-post-image" alt="" />			<figcaption>
@@ -530,7 +428,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 								</figcaption>
 		</figure>
 	</a>
-
 	<div class="property-content content">
 		<div class="property-title">
 			<a href="http://demo.themetrail.com/realty/property/spacious-mansion/"><h3 class="title">Broken street light</h3></a>
@@ -553,13 +450,9 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Faculty</div>
 					</div>
 							</div>
-		
-		
 		<div class="property-price">
-
 			<div class="price-tag">
 				Updated 10 minutes ago			</div>
-
 			<div class="property-icons">
 									<span style="position: relative">
 						<div class="share-unit" style="display: none;">
@@ -570,27 +463,15 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						</div>
 						<i class="icon-share share-property" data-toggle="tooltip" data-original-title="Share" title="Share"></i>
 					</span>
-				
 				<i class="add-to-favorites icon-heart" data-fav-id="140" data-toggle="tooltip" title="Remove From Favorites"></i><a href="//vimeo.com/105744291" class="property-video-popup"><i class="icon-video-camera" data-toggle="tooltip" title="Watch Trailer"></i></a><i class="icon-add compare-property" data-compare-id="140" data-toggle="tooltip" title="Compare"></i>
-				
 			</div><!-- .property-icons -->
 			<div class="clearfix"></div>
-
 		</div><!-- .property-price -->
-
 	</div><!-- .property-content -->
-
-	
 </div><!-- .property-item -->
-
 					      </li>
-
-				      
 																											<li class="col-lg-4 col-md-6">
-																	
-					      
 <div class="property-item border-box">
-
 	<a href="http://demo.themetrail.com/realty/property/country-house/">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/fire_alarm.jpg" class=" wp-post-image" alt="" />			<figcaption>
@@ -601,7 +482,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 								</figcaption>
 		</figure>
 	</a>
-
 	<div class="property-content content">
 		<div class="property-title">
 			<a href="http://demo.themetrail.com/realty/property/country-house/"><h3 class="title">Faulty Alarm</h3></a>
@@ -624,13 +504,9 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<div class="meta-data" data-toggle="tooltip" title="Bathrooms">Student</div>
 					</div>
 							</div>
-		
-		
 		<div class="property-price">
-
 			<div class="price-tag">
 				Updated 1 day ago			</div>
-
 			<div class="property-icons">
 									<span style="position: relative">
 						<div class="share-unit" style="display: none;">
@@ -641,33 +517,18 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						</div>
 						<i class="icon-share share-property" data-toggle="tooltip" data-original-title="Share" title="Share"></i>
 					</span>
-				
 				<i class="add-to-favorites icon-heart" data-fav-id="146" data-toggle="tooltip" title="Remove From Favorites"></i><i class="icon-add compare-property" data-compare-id="146" data-toggle="tooltip" title="Compare"></i>
-				
 			</div><!-- .property-icons -->
 			<div class="clearfix"></div>
-
 		</div><!-- .property-price -->
-
 	</div><!-- .property-content -->
-
-	
 </div><!-- .property-item -->
-
 					      </li>
-
-				      				      
 						</ul>
 					</div>
-
-	      
-			
 			<p id="msg-no-favorites" class="hide alert alert-info">
 				You haven&#039;t added any favorites.			</p>
-
-		
 	</div>
-
 	<script>
 	jQuery('.add-to-favorites').click(function() {
 		jQuery(this).closest('li').fadeOut(400, function() {
@@ -679,14 +540,8 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		});
 	});
 	</script>
-
-
 </div><!-- #content -->
-
-
-
-	<footer class="site-footer" id="footer">
-
+	<!--<footer class="site-footer" id="footer">
 		      <div class="site-footer-top" id="footer-top">
         <div class="container">
           <div class="row">
@@ -695,13 +550,10 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 </div>
 		</div></li></ul></div><div class="col-sm-4"><ul class="list-unstyled"><li class="widget widget_custom_property_search_form"><div class="widget-content"><h5 class="widget-title">Quick Search</h5>
 <form class="property-search-form border-box" action="http://demo.themetrail.com/realty/property-map-vertical/">
-
 	<div class="row">
-
 										<div class="col-xs-12 col-sm-6 col-md-4 form-group select">
 																		<select name="estate_property_location" id="estate_property_location" class="form-control chosen-select">
 										<option value="all">Any Location</option>
-								    
 								    						        <option value="london" >
 					            London					            <optgroup>
 					              					                  <option value="belgravia" class="level2" >
@@ -744,29 +596,19 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 					            For Sale						        </option>
 								    									</select>
 								</div>
-								
 			<div class="col-xs-12 col-sm-6 col-md-4 form-group">
 				<input type="submit" value="Search" class="btn btn-primary btn-block form-control" />
 			</div>
-
-			
 	</div>
-
-	
 	<input type="hidden" name="pageid" value="193" />
       <input type="hidden" name="searchid" value="W2N1c3RvbV9wcm9wZXJ0eV9zZWFyY2hfZm9ybSBsb2NhdGlvbj0iQW55IExvY2F0aW9uIiB0eXBlPSJBbnkgVHlwZSIgc3RhdHVzPSJBbnkgU3RhdHVzIl0=" />
-  
-	
 </form>
 </div></li></ul></div><div class="col-sm-4"><ul class="list-unstyled"><li class="widget widget_featured_properties"><div class="widget-content"><h5 class="widget-title">Featured Properties</h5>
-		
-			
 			<div class="hide-initially" id="agent_carousel_1580322636">
 														<div class="widget-container">
 						<a href="http://demo.themetrail.com/realty/property/futuristic-nest/">
 							<div class="widget-thumbnail">
 								<img width="400" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-400x300.jpg" class="attachment-thumbnail-400-300 size-thumbnail-400-300 wp-post-image" alt="" />							</div>
-
 							<div class="widget-text">
 								<h5 class="title">Futuristic Nest</h5>
 								<div class="sub-title">
@@ -778,7 +620,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<a href="http://demo.themetrail.com/realty/property/loft-above-the-city/">
 							<div class="widget-thumbnail">
 								<img width="400" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-modern-400x300.jpg" class="attachment-thumbnail-400-300 size-thumbnail-400-300 wp-post-image" alt="" srcset="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-modern-400x300.jpg 400w, http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-modern-300x225.jpg 300w, http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-modern-1024x768.jpg 1024w, http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-modern-1600x1200.jpg 1600w, http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-modern-1200x900.jpg 1200w" sizes="(max-width: 400px) 100vw, 400px" />							</div>
-
 							<div class="widget-text">
 								<h5 class="title">Loft Above The City</h5>
 								<div class="sub-title">
@@ -790,7 +631,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/">
 							<div class="widget-thumbnail">
 								<img width="400" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-living-room-light-400x300.jpg" class="attachment-thumbnail-400-300 size-thumbnail-400-300 wp-post-image" alt="" />							</div>
-
 							<div class="widget-text">
 								<h5 class="title">Apartment On Stamford</h5>
 								<div class="sub-title">
@@ -802,7 +642,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<a href="http://demo.themetrail.com/realty/property/spacious-mansion/">
 							<div class="widget-thumbnail">
 								<img width="400" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-villa-pool-4-400x300.jpg" class="attachment-thumbnail-400-300 size-thumbnail-400-300 wp-post-image" alt="" />							</div>
-
 							<div class="widget-text">
 								<h5 class="title">Spacious Mansion</h5>
 								<div class="sub-title">
@@ -814,7 +653,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						<a href="http://demo.themetrail.com/realty/property/westminster-beauty/">
 							<div class="widget-thumbnail">
 								<img width="400" height="300" src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-cozy-400x300.jpg" class="attachment-thumbnail-400-300 size-thumbnail-400-300 wp-post-image" alt="" />							</div>
-
 							<div class="widget-text">
 								<h5 class="title">Westminster Beauty</h5>
 								<div class="sub-title">
@@ -823,16 +661,11 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 						</a>
 					</div>
 											</div>
-
 							<div class="arrow-container" id="arrow-container-agent_carousel_1580322636"></div>
-			
 					<script>
 			(function($) {
 			  "use strict";
 				$(document).ready(function() {
-
-					
-					
 					var slider_agent_carousel_1580322636 = $('#agent_carousel_1580322636')
 		       	.on('init', function(slick) {
 							$('#agent_carousel_1580322636').removeClass('hide-initially');
@@ -870,25 +703,18 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 			          },
 			        ],
 									      });
-
-		      
 		    });
 		  })(jQuery);
 	  </script>
-		
 		</div></li></ul></div>          </div>
         </div>
       </div>
-		
 					<div class="site-footer-bottom" id="footer-bottom">
 				<div class="container">
 					<div class="row">
-						
 													<div class="col-sm-6 footer-bottom-left">
 								<div class="widget-content">			<div class="textwidget">Copyright © 2016 by Real Estate Inc.</div>
 		</div>							</div>
-						
-						
 													<div class="col-sm-6 footer-bottom-right">
 								<div class="widget-content"><div class="menu-custom-footer-menu-container"><ul id="menu-custom-footer-menu" class="menu"><li id="menu-item-1076" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1076"><a href="http://docs.themetrail.com">Theme Docs</a></li>
 <li id="menu-item-1077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1077"><a href="http://themetrail.com/out/realty/">Get The Theme</a></li>
@@ -897,10 +723,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 											</div>
 				</div>
 			</div>
-		
-	</footer>
-
-
+	</footer>-->
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
@@ -911,40 +734,27 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 <script type='text/javascript' src='http://demo.themetrail.com/realty/wp-includes/js/wp-embed.min.js?ver=4.9.5'></script>
 	<script>
 		jQuery(document).ready(function($) {
-
 			// Social Sharing and video pop up
 			video_and_social_share();
-
 			jQuery('.search-results-view i').on('click',function() {
 			  jQuery('.search-results-view i').removeClass('active');
 			  jQuery(this).toggleClass('active');
 			  jQuery('.property-items').fadeTo( 300 , 0, function() {
 			  jQuery(this).fadeTo( 300, 1 );
 			});
-
 			setTimeout(function() {
 				jQuery('.property-items').attr( 'data-view', jQuery('.search-results-view i.active').attr('data-view') );
 			}, 300);
-
 			});
-
-										
-			
 		}); // END document.ready
-
 		//jQuery(window).load(function() {
-
 			var heightWindow = jQuery(window).height();
 			var windowWidth = jQuery(window).width();
 			var heightHeader = jQuery('#header').height();
 			var heightFullscreen = heightWindow - heightHeader;
-
-						
-			
 										if ( jQuery('.property-image-container').hasClass('cut') ) {
 					jQuery('.property-image-container .property-image, .property-image-container iframe').css( 'height', 600 );
 				}
-			
 										jQuery('body.single-property .property-image').magnificPopup({
 					type: 		'image',
 					gallery: 	{
@@ -954,20 +764,12 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 						tCounter: '%curr% | %total%'
 					}
 				});
-			
-			
-			
 				jQuery('.datepicker').datepicker({
 				language: 'en',
 				autoclose: true,
 				isRTL: 'false',
 				format: 'mm/dd/yyyy',
-
 				});
-			
-			
-
-
 			// AJAX
 			function tt_ajax_search_results() {
 				"use strict";
@@ -979,7 +781,6 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				}
 				var ajaxData = jQuery('.property-search-form').first().serialize() + "&action=tt_ajax_search&base=" + window.location.pathname;
 				jQuery.ajax({
-
 				  type: 'GET',
 				  url: ajax_object.ajax_url,
 				  data: ajaxData,
@@ -991,11 +792,8 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				  error: function () {
 				  	console.log( 'failed' );
 				  }
-
 				});
-
 			}
-
 			// Remove Map Markers & Marker Cluster
 			function removeMarkers() {
 				// http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/examples/speed_test.js
@@ -1014,9 +812,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 			    newMarkers = [];
 			    bounds = [];
 			  }
-
 			}
-
 			// Fire Search Results Ajax On Search Field Change (Exclude Datepicker)
 			jQuery('.property-search-form select, .property-search-form input').not('.datepicker').on('change',function() {
 				loader();
@@ -1025,7 +821,6 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				}
 				tt_ajax_search_results();
 			});
-
 			// Fire Search Results Ajax On Search Field "Datepicker" Change
 			jQuery('.property-search-form input.datepicker').on('changeDate', function() {
 				loader();
@@ -1034,33 +829,26 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				}
 				tt_ajax_search_results();
 			});
-
 			function loader() {
 				jQuery('.property-items').addClass('loading');
 				jQuery('.property-items').html('<div class="loader-container"><div class="svg-loader"></div></div>');
 			}
-
 			// AJAX script for pagination
 			jQuery(function($) {
 				$('.pagination-ajax a').live('click',function(e){
 					e.preventDefault();
-
 					var link_page = $(this).attr('href');
 					var page_number =  $(this).text();
-
 					if($(this).hasClass( "next" )){
 						var next_from = parseInt($('.pagination-ajax li span').text());
 						page_number = next_from + 1;
 					}
-
 					if($(this).hasClass( "prev" )){
 						var prev_from = parseInt($('.pagination-ajax li span').text());
 						page_number = prev_from - 1;
 					}
-
 					$('.property-items').fadeOut(500);
 					removeMarkers();
-
 					var ajaxData = jQuery('.property-search-form').first().serialize() + "&action=tt_ajax_search&base=" + window.location.pathname + "&pagenumber=" + page_number;
 					//console.log(ajaxData);
 					$.ajax({
@@ -1076,37 +864,25 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 						console.log( 'failed' );
 						}
 					});
-
 				});
 			});
-
 			// END AJAX script for pagination
-
 		//}); // END window.load
-
-		
 					jQuery('.menu-item-has-children, .menu-item-language').click(function() {
 			  if ( jQuery('body').hasClass('show-nav') ) {
 			    jQuery(this).find('.sub-menu').toggleClass('open');
 			  }
 			});
-		
 		jQuery("#submit-profile-update").attr("disabled", "disabled");
 	</script>
-	
 		<script>
-		
 		jQuery('.container').on("click",'.add-to-favorites',function() {
-
-			
 				// Toggle Favorites Tooltips
 				if ( jQuery(this).hasClass('icon-heart') ) {
 					jQuery(this).attr('data-original-title', 'Remove From Favorites');
 				}
-
 				jQuery(this).find('i').toggleClass('icon-heart icon-heart-1');
 				jQuery(this).closest('i').toggleClass('icon-heart icon-heart-1');
-
 														jQuery.ajax({
 					  type: 'GET',
 					  url: ajax_object.ajax_url,
@@ -1118,29 +894,19 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 					  success: function (response) { },
 					  error: function () { }
 					});
-
-					
-			
 		});
 		</script>
-
-	
 		<script>
 		jQuery('.container').on("click",'.add-to-follow',function() {
-
-			
 					// Toggle Follow Tooltips
 					if ( jQuery(this).hasClass('icon-email-1') ) {
 						jQuery(this).attr('data-original-title', 'Unsubscribe From Email Updates');
 					}
-
 					if ( jQuery(this).hasClass('icon-email') ) {
 						jQuery(this).attr('data-original-title', 'Subscribe To Email Updates');
 					}
-
 					jQuery(this).find('i').toggleClass('icon-email icon-email-1');
 					jQuery(this).closest('i').toggleClass('icon-email icon-email-1');
-
 																	jQuery.ajax({
 						  type: 'GET',
 						  url: ajax_object.ajax_url,
@@ -1152,11 +918,8 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 						  success: function (response) { },
 						  error: function () { }
 						});
-					
-				
 			});
 		</script>
-
 			<script>
 		// Check If item Already In Favorites Array
 		function inArray(needle, haystack) {
@@ -1166,48 +929,34 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 	    }
 	    return false;
 		}
-
 		if ( !store.enabled ) {
 			throw new Error("Local storage is not supported by your browser. Please disable \&quot;Private Mode\&quot;, or upgrade to a modern browser.");
 	  }
-
 		jQuery('.container').on('click', '.compare-property', function() {
-
 			jQuery('#compare-properties-popup').show();
-
 		  // Check If Browser Supports LocalStorage
 			if ( !store.enabled ) {
 		    throw new Error("Local storage is not supported by your browser. Please disable \"Private Mode\", or upgrade to a modern browser.");
 		  }
-
 		  if ( store.get('comparison') ) {
-
 				var getComparisonAll = store.get('comparison');
 				var propertyToCompare = jQuery(this).attr('data-compare-id');
-
 				// Add To Comparison, If Its Not Already In It
 				if ( !inArray( propertyToCompare, getComparisonAll ) && getComparisonAll.length < 4 ) {
 					getComparisonAll.push( propertyToCompare );
 				}
-
 				store.set( 'comparison', getComparisonAll );
 				comparisonLength = getComparisonAll.length;
-
 			} else {
-
 				var arrayComparison = [];
 				arrayComparison.push( jQuery(this).attr('data-compare-id') );
 				store.set( 'comparison', arrayComparison );
 				var comparisonLength = store.get('comparison').length;
-
 			}
-
 			console.log( store.get('comparison') );
-
 			// Update Comparison Popup Thumbnails
 			var properties;
 			properties = store.get('comparison');
-
 			jQuery.ajax({
 			  type: 'GET',
 			  url: ajax_object.ajax_url,
@@ -1226,9 +975,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 			  	}
 			  }
 			});
-
 		});
 		</script>
-	
 </body>
 </html>

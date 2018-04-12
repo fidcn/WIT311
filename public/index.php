@@ -8,8 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<title><?php echo INST_NAME;
-?> | Overview</title>
+		<title><?php echo INST_NAME; ?> | Overview</title>
 		<script>
 			/* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
 			if ( typeof WebFontConfig === "undefined" ) {
@@ -238,92 +237,51 @@ jQuery(window).load(function() {
 <div class="container search-result-container">
 	<div class="row">
 		<div class="col-sm-6 search-container">
-<form class="property-search-form border-box" action="http://demo.themetrail.com/realty/property-map-vertical/">
+<form class="property-search-form border-box" action="/submit.php" method="POST">
+	<h3>Submit New Report</h3>
 	<div class="row">
-										<div class="col-xs-12 col-sm-6 form-group select">
-																		<select name="location" id="location" class="form-control chosen-select">
-										<option value="all">Any Location</option>
-								    						        <option value="london" >Boston
-																		<optgroup>
-																			<option value="mission-hill" class="level2" >Mission Hill</option>
-																			<option value="longwood" class="level2" >Longwood</option>
-																			<option value="back-bay" class="level2" >Back Bay</option>
-																		</optgroup>
-																	</option>
-								    									</select>
-								</div>
-																<div class="col-xs-12 col-sm-6 form-group select">
-																		<select name="status" id="status" class="form-control chosen-select">
-										<option value="all">Any Status</option>
-								    								    						        <option value="rent" >
-					            For Rent						        </option>
-								    						        <option value="sale" >
-					            For Sale						        </option>
-								    									</select>
-								</div>
-																<div class="col-xs-12 col-sm-6 form-group select">
-																		<select name="type" id="type" class="form-control chosen-select">
-										<option value="all">Any Type</option>
-								    								    						        <option value="apartment" >
-					            Apartment						        </option>
-								    						        <option value="house" >
-					            House						        </option>
-								    						        <option value="office" >
-					            Office						        </option>
-								    						        <option value="villa" >
-					            Villa						        </option>
-								    									</select>
-								</div>
-								<div class="col-xs-12 col-sm-6 form-group">
-																			<select name="minrooms" id="minrooms" class="form-control chosen-select">
-											<option value="">Min. rooms</option>
-																						<option value="1" >1</option>
-																						<option value="2" >2</option>
-																						<option value="3" >3</option>
-																						<option value="4" >4</option>
-																						<option value="5" >5</option>
-																						<option value="6" >6</option>
-																						<option value="7" >7</option>
-																						<option value="8" >8</option>
-																						<option value="9" >9</option>
-																						<option value="10" >10</option>
-																					</select>
-																	</div>
-																<div class="col-xs-12 col-sm-6 form-group">
-									<input type="number" name="maxsize" id="maxsize" value="" placeholder="Min. size" min="0" class="form-control" />
-								</div>
-																<div class="col-xs-12 col-sm-6 form-group">
-									<input type="text" name="keyword" id="keyword" value="" placeholder="Keyword (e.g. 'office')" class="form-control" />
-								</div>
-																<div class="col-xs-12 col-sm-6 form-group">
-										<select name="pricerange" id="pricerange" class="form-control chosen-select">
-											<option value="">Price</option>
-																																															<option value="0-49999" >$0 - $49,999</option>
-																																															<option value="50000-99999" >$50,000 - $99,999</option>
-																																															<option value="100000-149999" >$100,000 - $149,999</option>
-																																															<option value="150000-199999" >$150,000 - $199,999</option>
-																																															<option value="200000-249999" >$200,000 - $249,999</option>
-																																															<option value="250000-299999" >$250,000 - $299,999</option>
-																																															<option value="300000-349999" >$300,000 - $349,999</option>
-																																															<option value="350000-399999" >$350,000 - $399,999</option>
-																																															<option value="400000-449999" >$400,000 - $449,999</option>
-																																															<option value="450000-499999" >$450,000 - $499,999</option>
-																																															<option value="500000-549999" >$500,000 - $549,999</option>
-																																															<option value="550000-599999" >$550,000 - $599,999</option>
-																																															<option value="600000-649999" >$600,000 - $649,999</option>
-																																															<option value="650000-699999" >$650,000 - $699,999</option>
-																																															<option value="700000-749999" >$700,000 - $749,999</option>
-																																															<option value="750000-799999" >$750,000 - $799,999</option>
-																																															<option value="800000-849999" >$800,000 - $849,999</option>
-																																															<option value="850000-899999" >$850,000 - $899,999</option>
-																																															<option value="900000-949999" >$900,000 - $949,999</option>
-																																															<option value="950000-999999" >$950,000 - $999,999</option>
-																																															<option value="1000000" >$1,000,000+</option>
-																					</select>
-								</div>
-			<div class="col-xs-12 col-sm-6 form-group">
-				<input type="submit" value="Search" class="btn btn-primary btn-block form-control" />
-			</div>
+		<div class="col-xs-12 col-sm-6 form-group select">
+		<select name="location" id="neigborhood" class="form-control chosen-select">
+			<option value="london">Pick a Neighborhood
+				<optgroup>
+					<option value="mission-hill" class="level2" >Mission Hill</option>
+					<option value="longwood" class="level2" >Longwood</option>
+					<option value="back-bay" class="level2" >Back Bay</option>
+				</optgroup>
+			</option>
+		</select>
+		</div>
+		<div class="col-xs-12 col-sm-6 form-group select">
+				<select name="type" id="type" class="form-control chosen-select">
+					<option value="all">Report Type</option>
+					<option value="unplowed-road">Un-plowed Road</option>
+					<option value="unsanded-unsalted-road">Un-sanded/salted Road</option>
+					<option value="unplowed-walkway">Un-cleared Walkway</option>
+					<option value="frost-heaves">Frost Heaves</option>
+					<option value="black-ice-icy-roads">Black Ice / Icy Roads</option>
+					<option value="damaged-signage">Damanged Signage</option>
+					<option value="damaged-traffic-lights">Damaged Traffic Lights</option>
+					<option value="downed-telephone-pole">Downed Telephone Pole</option>
+					<option value="damaged-elec">Damaged Electrical Equipment</option>
+					<option value="street-light-outage">Street Light Outage</option>
+					<option value="flooding-stormwater">Flooding / Stormwater</option>
+					<option value="vermin-rodents">Vermin / Rodents</option>
+					<option value="fallen-tree-branches">Fallen Tree / Branches</option>
+					<option value="grafitt">Grafiti</option>
+				</select>
+		</div>
+		<div class="col-xs-12 col-sm-6 form-group">
+			<input type="text" name="description" id="description" value="" placeholder="Issue Description" class="form-control" />
+		</div>
+		<div class="col-xs-12 col-sm-6 form-group">
+			<input type="text" name="description" id="location" value="" placeholder="Issue Location" class="form-control" />
+		</div>
+		<div class="col-xs-12 col-sm-6 form-group">
+			<input type="text" name="reportername" id="reportername" value="" placeholder="Your Name" class="form-control" />
+		</div>
+		<div class="col-xs-12 col-sm-6 form-group">
+			<input type="submit" value="Submit Report" class="btn btn-primary btn-block form-control" />
+		</div>
 	</div>
 	<input type="hidden" name="pageid" value="301" />
 </form>
@@ -335,7 +293,7 @@ jQuery(window).load(function() {
 				<div class="property-item border-box  featured" data-sync-id="0">
 					<a href="/report/1">
 						<figure class="property-thumbnail">
-							<img width="600" height="300" src="/images/report/streetlight.jpg" class=" wp-post-image" alt="" />
+							<img width="600" height="100" src="/images/report/streetlight.jpg" class=" wp-post-image" alt="" />
 							<figcaption>
 								<div class="property-excerpt">
 									<h4 class="address">Mission Hill (Fisher Avenue)</h4>
@@ -432,7 +390,7 @@ jQuery(window).load(function() {
 				function initMap() {
 					var	mapOptions = {
 						center: new google.maps.LatLng(42.331535, -71.101567),
-						zoom: 13,
+						zoom: 10,
 				    scrollwheel: false,
 				    streetViewControl: false,
 				    draggable: true,
@@ -445,19 +403,9 @@ jQuery(window).load(function() {
 						}
 										  address = null;
 					  //console.log('No address');
-					markers = initMarkers(map, [ { permalink:'http://demo.themetrail.com/realty/property/westminster-beauty/', title:'Westminster Beauty', price:'$500,000', latLng: new google.maps.LatLng(51.5007153, -0.13608049999993455), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-cozy-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/spacious-mansion/', title:'Spacious Mansion', price:'$950,000', latLng: new google.maps.LatLng(51.4998999, -0.15615779999995993), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-villa-pool-4-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/apartment-on-stamford/', title:'Apartment On Stamford', price:'$3,000&nbsp; per month', latLng: new google.maps.LatLng(51.5071489, -0.10518149999995785), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-living-room-light-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/loft-above-the-city/', title:'Loft Above The City', price:'$2,500&nbsp;&nbsp;per month', latLng: new google.maps.LatLng(51.4655913, -0.17991240000003472), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-bedroom-modern-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/futuristic-nest/', title:'Futuristic Nest', price:'$5,000&nbsp; per month', latLng: new google.maps.LatLng(51.486545, -0.16975860000002285), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/country-house/', title:'Country House', price:'$350,000', latLng: new google.maps.LatLng(51.4978868, -0.0901566999999659), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-red-bricks-entrance-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/central-office/', title:'Central Office', price:'$6,000&nbsp;&nbsp;per month', latLng: new google.maps.LatLng(51.5122249, -0.09045309999999063), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-office-huge-2-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/living-the-dream/', title:'Living The Dream', price:'$7,500&nbsp;&nbsp;per month', latLng: new google.maps.LatLng(51.5069927, -0.13605989999996382), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-mansion-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/green-oasis/', title:'Green Oasis', price:'$825,000', latLng: new google.maps.LatLng(51.49607270000001, -0.12657279999996263), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-mansion-lavender-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/modern-office/', title:'Modern Office', price:'$600,000', latLng: new google.maps.LatLng(51.5012413, -0.10586069999999381), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-office-building3-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/state-of-the-art/', title:'State of The Art', price:'$3,000&nbsp; per month', latLng: new google.maps.LatLng(51.5101741, -0.13528059999998732), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-living-room-modern-600x300.jpg' },
-{ permalink:'http://demo.themetrail.com/realty/property/for-the-minimalist/', title:'For The Minimalist', price:'$275,000', latLng: new google.maps.LatLng(51.51533939999999, -0.14131750000001375), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-minimalistic-living-room-ocean-view-600x300.jpg' },
- ]);
+					markers = initMarkers(map, [
+						{ permalink:'/reports/1', title:'Street Light Outage', price:'Investigating', latLng: new google.maps.LatLng(42.327132, -71.099689), thumbnail: 'images/report/streetlight.jpg' },
+					]);
 					// Spiderfier
 					var oms = new OverlappingMarkerSpiderfier(map, { markersWontMove: true, markersWontHide: true, keepSpiderfied: true, legWeight: 5 });
 					function omsMarkers( markers ) {

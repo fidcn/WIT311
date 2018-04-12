@@ -47,8 +47,8 @@ img.emoji {
 }
 </style>
 <link rel='stylesheet' id='contact-form-7-css'  href='http://demo.themetrail.com/realty/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-main-min-css'  href='http://demo.themetrail.com/realty/wp-content/themes/realty/assets/css/theme-main.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-css'  href='http://demo.themetrail.com/realty/wp-content/themes/realty-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-main-min-css'  href='/css/theme-main.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-css'  href='/css/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='print-css'  href='http://demo.themetrail.com/realty/wp-content/themes/realty/print.css' type='text/css' media='print' />
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -62,7 +62,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <script type='text/javascript' src='http://demo.themetrail.com/realty/wp-content/themes/realty/lib/js/google-maps/google-maps.min.js'></script>
 <link rel='https://api.w.org/' href='http://demo.themetrail.com/realty/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://demo.themetrail.com/realty/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://demo.themetrail.com/realty/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://demo.themetrail.com/realty/wp-includes/wlwmanifest.xml" />
 <link rel='prev' title='For The Minimalist' href='http://demo.themetrail.com/realty/property/for-the-minimalist/' />
 <meta name="generator" content="WordPress 4.9.5" />
 <link rel="canonical" href="http://demo.themetrail.com/realty/property/futuristic-nest/" />
@@ -72,7 +72,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://demo.themetrail.com/realty/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><style type="text/css" title="dynamic-css" class="options-output">body, .section-title span{background-color:#ffffff;}#header{background-color:#fff;}.top-header, .top-header a, .site-branding, .site-title a, .site-description a, .primary-menu a{color:#787878;}#header{font-family:"Source Sans Pro";opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading #header,{opacity: 0;}.ie.wf-loading #header,{visibility: hidden;}h1, h2, h3, h4, h5, h6{font-family:"Source Sans Pro";font-weight:400;color:#42484b;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading h1, h2, h3, h4, h5, h6,{opacity: 0;}.ie.wf-loading h1, h2, h3, h4, h5, h6,{visibility: hidden;}body{font-family:"Fira Sans";font-weight:400;color:#787878;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading body,{opacity: 0;}.ie.wf-loading body,{visibility: hidden;}#footer{background-color:#333;}#footer-bottom{background-color:#2e2e2e;}#footer .widget-title, #footer p{color:#ffffff;}</style>		<style>
 			/* Theme Option: Color Accent */
-		
+
 						.property-image-container,
 			.property-image-container .property-item,
 			.property-image-container .loader-container {
@@ -220,19 +220,19 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
 <header id="header">
 
-	
+
 	<div class="top-header">
 		<div class="container">
 							<div class="top-header-sidebar">
 								<div class="textwidget"><a href="tel:7742131414">+1 774-213-1414</a> · <a href="mailto:info@311.dchr.host">info@311.dchr.host</a></div>
 						</div>
-			
-							<div class="top-header-links primary-tooltips">
-					
 
-	
-			
-	
+							<div class="top-header-links primary-tooltips">
+
+
+
+
+
 	<a href="#login-modal" data-toggle="modal">Login</a>
 
 				</div>
@@ -241,14 +241,14 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 
   <div class="container">
 		<div class="site-branding">
-			
+
 		  					<p class="site-title"><a href="https://311.dchr.host" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
-			
+
 	    	    <a id="toggle-navigation" class="navbar-togglex" href="#"><i></i></a>
 			<div class="mobile-menu-overlay hide"></div>
     </div>
 
-		
+
   </div>
 
 </header>
@@ -257,7 +257,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <div id="content">
 <div id="page-user-favorites" class="container">
 
-			
+
 		<h1 class="section-title style1 text-left"><span>Graffiti Near Beatty </span></h1>
 		<p> Thursday 10:15 AM mazzarellal </p>
 <h3 class="section-title"><span></span></h3>
@@ -366,7 +366,7 @@ function openPage(pageName,elmnt,color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
-     
+
 </body>
 
 <h3 class="section-title"><span></span></h3>
@@ -376,7 +376,7 @@ There is graffiti near Beatty Hall. Can someone come take a look at their earlie
 Thanks, <br><br>
 Liz</b><br> </p>
 <br>
-<img src="graffiti.jpeg" alt="Graffiti.jpeg" width="700" height="700">
+<img src="/images/report/graffiti.jpeg" alt="Graffiti.jpeg" width="700" height="700">
 <br>
 <br>
 <form action="/action_page.php">
@@ -412,56 +412,56 @@ function openCity(evt, contentName) {
 }
 </script>
 	</div>
-	
+
 	<div id="property-layout-full-width">
 
 
 
 
-		
-			
-			
-				
+
+
+
+
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-1600x1050.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-1600x1050.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-1600x1050.jpg" class="property-image  zoom" title="One Story House" data-title="One Story House" data-hash="#"></div>
-				
-				
-				
-			
-				
+
+
+
+
+
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-living-room-1600x1067.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-living-room-1600x1067.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-living-room-1600x1067.jpg" class="property-image  zoom" title="One Story House Livingroom" data-title="One Story House Livingroom" data-hash="#"></div>
-				
-				
-				
-			
-				
+
+
+
+
+
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-4-1600x1067.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-4-1600x1067.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-4-1600x1067.jpg" class="property-image  zoom" title="One Story House 3" data-title="One Story House 3" data-hash="#"></div>
-				
-				
-				
-			
-				
+
+
+
+
+
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-1600x1067.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-1600x1067.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-1600x1067.jpg" class="property-image  zoom" title="One Story House 6" data-title="One Story House 6" data-hash="#"></div>
-				
-				
-				
-			
-		
+
+
+
+
+
 	</div><!-- Property Carousel -->
 
-	
+
 </div><!-- .property-image-container -->
-	
-			
+
+
 			<div id="main-content">
-					
+
 								</div>
 
-			
-			
+
+
 			<script>
 				var map = null, markers = [], newMarkers = [], markerCluster = null, infobox = [], address = null;
-				
-	
+
+
 		var customIcon = new google.maps.MarkerImage(
 			'http://demo.themetrail.com/realty/wp-content/themes/realty/lib/images/map-marker/map-marker-green-fat.png',
 			null, // size is determined at runtime
@@ -470,8 +470,8 @@ function openCity(evt, contentName) {
 		  new google.maps.Size(50, 69)
 		);
 
-	
-	
+
+
 		var markerClusterOptions = {
 			gridSize: 60, // Default: 60
 			maxZoom: 14,
@@ -482,8 +482,8 @@ function openCity(evt, contentName) {
 			}]
 		};
 
-	
-	
+
+
 					var customAltIcon = new google.maps.MarkerImage(
 				'http://demo.themetrail.com/realty/wp-content/themes/realty/lib/images/map-marker/map-marker-red-fat.png',
 			  null, // size is determined at runtime
@@ -491,7 +491,7 @@ function openCity(evt, contentName) {
 			  null, // anchor is bottom center of the scaled image
 			  new google.maps.Size(50, 69)
 			);
-	  
+
 		jQuery('.property-item').on('mouseenter', function(){
 			var data_sync_id = jQuery(this).attr('data-sync-id');
 			newMarkers[data_sync_id].setIcon(customAltIcon);
@@ -500,8 +500,8 @@ function openCity(evt, contentName) {
 			newMarkers[data_sync_id].setIcon(customIcon);
 		});
 
-	
-	
+
+
 				/**
 				 * initMap
 				 *
@@ -523,10 +523,10 @@ function openCity(evt, contentName) {
 							var styles = JSON.parse(map_options.map_style);
 							map.setOptions( { styles: styles } );
 						}
-					
+
 											address = "125 Oakley Street, London, UK";
 						//console.log(address);
-				  
+
 					markers = initMarkers(map, [ { permalink:'http://demo.themetrail.com/realty/property/futuristic-nest/', title:'Futuristic Nest', price:'$5,000&nbsp; per month', latLng: new google.maps.LatLng(51.486545, -0.16975860000002285), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-600x300.jpg' },
  ]);
 
@@ -569,7 +569,7 @@ function openCity(evt, contentName) {
 				function initMarkers(map, markerData) {
 
 											map.setCenter(new google.maps.LatLng(51.486545 , -0.16975860000002285));
-					
+
 					var bounds = new google.maps.LatLngBounds();
 
 					for ( var i = 0; i < markerData.length; i++ ) {
@@ -777,18 +777,18 @@ function openCity(evt, contentName) {
 			}
 			google.maps.event.addDomListener(window, 'load', map_controls);
 		</script>
-		
-			
 
-			
-			
-				
 
-				
-				
 
-				
-			
+
+
+
+
+
+
+
+
+
 	<script>
   	var contactFormCaptcha;
   	var getResponseContactForm;
@@ -872,18 +872,18 @@ function openCity(evt, contentName) {
 
 </section>
 
-				
 
 
-	
+
+
 
 			<script>
 			(function($) {
 			  "use strict";
 				$(document).ready(function() {
 
-					
-					
+
+
 					var slider_similar_properties_carousel = $('#similar_properties_carousel')
 		       	.on('init', function(slick) {
 							$('#similar_properties_carousel').removeClass('hide-initially');
@@ -921,13 +921,13 @@ function openCity(evt, contentName) {
 			        ],
 									      });
 
-		      
+
 		    });
 		  })(jQuery);
 	  </script>
-		
 
-				
+
+
 			</div><!-- #main-container -->
 
 					<script>
@@ -935,13 +935,13 @@ function openCity(evt, contentName) {
 			  "use strict";
 				$(document).ready(function() {
 
-					
+
 												var windowHeight = jQuery(window).height();
 							var headerHeight = jQuery('#header').height();
 																			var sliderHeight = 600;
 							$('#property_image_slider .property-image').css( 'height', sliderHeight );
 																			$('#property_image_slider .property-image').css( 'height', sliderHeight );
-											
+
 					var slider_property_image_slider = $('#property_image_slider')
 		       	.on('init', function(slick) {
 							$('#property_image_slider').removeClass('hide-initially');
@@ -1019,14 +1019,14 @@ function openCity(evt, contentName) {
 			          },
 			        ],
 		      });
-		      
+
 		    });
 		  })(jQuery);
 	  </script>
-		
+
 			</div><!-- .col-sm-9 -->
 
-			
+
 		</div><!-- .row -->
 	</div><!-- .container -->
 
@@ -1040,19 +1040,19 @@ function openCity(evt, contentName) {
 		      <div class="site-footer-top" id="footer-top">
         <div class="container">
           <div class="row">
-          
+
 	<div class="row">
 
-							
-		
-			
+
+
+
 					<script>
 			(function($) {
 			  "use strict";
 				$(document).ready(function() {
 
-					
-					
+
+
 					var slider_agent_carousel_568013416 = $('#agent_carousel_568013416')
 		       	.on('init', function(slick) {
 							$('#agent_carousel_568013416').removeClass('hide-initially');
@@ -1091,27 +1091,27 @@ function openCity(evt, contentName) {
 			        ],
 									      });
 
-		      
+
 		    });
 		  })(jQuery);
 	  </script>
-		
+
 		</div></li></ul></div>          </div>
         </div>
       </div>
-		
+
 					<div class="site-footer-bottom" id="footer-bottom">
 					<				<div class="container">
 					<div class="row">
-								
+
 		</div>							</div>
-						
-						
-													
+
+
+
 											</div>
 				</div>
 			</div>
-		
+
 	</footer>
 
 
@@ -1135,7 +1135,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
       </div>
 
       <div class="modal-body">
-				
+
 		<ul class="nav nav-tabs" role="tablist" style="margin-bottom: 1em;">
 			<li class="active"><a href="#tab-login" role="tab" data-toggle="tab">Login</a></li>
 			  	</ul>
@@ -1145,11 +1145,11 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 			<div class="tab-pane active" id="tab-login">
 
 					        <p id="msg-login-to-add-favorites" class="alert alert-info hide"><small>You have to be logged in to use this feature.</small></p>
-        
-				
+
+
 				<p class="alert alert-info">Username & password: "demo"</p>
 		<form name="loginform" id="loginform" action="http://demo.themetrail.com/realty/wp-login.php" method="post">
-			
+
 			<p class="login-username">
 				<label for="user_login"></label>
 				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
@@ -1158,7 +1158,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				<label for="user_pass"></label>
 				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
 			</p>
-			
+
 			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
 			<p class="login-submit">
 				<input type="submit" name="wp-submit" id="wp-submit-login" class="button button-primary" value="Log In" />
@@ -1176,10 +1176,10 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				})(jQuery);
 				</script>
 
-				
+
 			</div>
 
-			
+
 		</div>
 
 		      </div>
@@ -1205,8 +1205,8 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 
 			});
 
-			
-			
+
+
 		}); // END document.ready
 
 		//jQuery(window).load(function() {
@@ -1216,12 +1216,12 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 			var heightHeader = jQuery('#header').height();
 			var heightFullscreen = heightWindow - heightHeader;
 
-						
-			
+
+
 										if ( jQuery('.property-image-container').hasClass('cut') ) {
 					jQuery('.property-image-container .property-image, .property-image-container iframe').css( 'height', 600 );
 				}
-			
+
 										jQuery('body.single-property .property-image').magnificPopup({
 					type: 		'image',
 					gallery: 	{
@@ -1231,9 +1231,9 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 						tCounter: '%curr% | %total%'
 					}
 				});
-			
-			
-			
+
+
+
 				jQuery('.datepicker').datepicker({
 				language: 'en',
 				autoclose: true,
@@ -1241,8 +1241,8 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				format: 'mm/dd/yyyy',
 
 				});
-			
-			
+
+
 
 
 			// AJAX
@@ -1361,18 +1361,18 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 
 		//}); // END window.load
 
-		
+
 					jQuery('.menu-item-has-children, .menu-item-language').click(function() {
 			  if ( jQuery('body').hasClass('show-nav') ) {
 			    jQuery(this).find('.sub-menu').toggleClass('open');
 			  }
 			});
-		
+
 		jQuery("#submit-profile-update").attr("disabled", "disabled");
 	</script>
-	
+
 		<script>
-		
+
 		jQuery('.container').on("click",'.add-to-favorites',function() {
 
 							jQuery('#msg-login-to-add-favorites').removeClass('hide');
@@ -1381,11 +1381,11 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				jQuery('#login-modal').on('hidden.bs.modal', function () {
 					jQuery('#msg-login-to-add-favorites').addClass('hide');
 				});
-			
+
 		});
 		</script>
 
-	
+
 		<script>
 		jQuery('.container').on("click",'.add-to-follow',function() {
 
@@ -1393,7 +1393,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 					jQuery('#login-modal').modal();
 					jQuery('#msg-login-to-add-follow').removeClass('hide');
 					jQuery('#msg-login-to-add-follow').addClass('hide');
-				
+
 			});
 		</script>
 
@@ -1469,6 +1469,6 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 
 		});
 		</script>
-	
+
 </body>
 </html>
