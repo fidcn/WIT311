@@ -343,8 +343,7 @@ jQuery(window).load(function() {
 						<div id="pagination">
 							<ul class='page-numbers'>
 	<li><span aria-current='page' class='page-numbers current'>1</span></li>
-	<li><a class='page-numbers' href='http://demo.themetrail.com/realty/property-map-vertical/page/2/'>2</a></li>
-	<li><a class="next page-numbers" href="http://demo.themetrail.com/realty/property-map-vertical/page/2/"><i class="icon-arrow-right"></i></a></li>
+	<li><a class="next page-numbers" href="#2"><i class="icon-arrow-right"></i></a></li>
 </ul>
 						</div>
 				</div>

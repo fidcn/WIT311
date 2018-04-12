@@ -9,7 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="http://demo.themetrail.com/realty/xmlrpc.php">
-<title><?php echo INST_NAME; ?> | Open Tickets &#8211;</title>
+<title><?php echo INST_NAME;
+?> | Open Tickets &#8211; 5</title>
                         <script>
                             /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
                             if ( typeof WebFontConfig === "undefined" ) {
@@ -254,7 +255,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		      	<ul class="row list-unstyled">
 																											<li class="col-lg-4 col-md-6">
 <div class="property-item border-box  featured">
-	<a href="http://demo.themetrail.com/realty/property/futuristic-nest/">
+	<a href="/report_page.php">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/graffiti.jpeg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
@@ -268,7 +269,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</a>
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/futuristic-nest/"><h3 class="title">Graffiti Near Beatty</h3></a>
+			<a href="/report_page.php"><h3 class="title">Graffiti Near Beatty</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
@@ -310,7 +311,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 					      </li>
 																											<li class="col-lg-4 col-md-6">
 <div class="property-item border-box  featured">
-	<a href="http://demo.themetrail.com/realty/property/westminster-beauty/">
+	<a href="h/report_page.php">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/spill.jpg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
@@ -322,7 +323,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</a>
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/westminster-beauty/"><h3 class="title">Spill in cafeteria</h3></a>
+			<a href="/report_page.php"><h3 class="title">Spill in cafeteria</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
@@ -364,7 +365,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 					      </li>
 																											<li class="col-lg-4 col-md-6">
 <div class="property-item border-box  featured">
-	<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/">
+	<a href="/report_page.php">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/projector.jpg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
@@ -376,7 +377,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</a>
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/apartment-on-stamford/"><h3 class="title">Broken projector</h3></a>
+			<a href="/report_page.php"><h3 class="title">Broken projector</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
@@ -418,7 +419,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 					      </li>
 																											<li class="col-lg-4 col-md-6">
 <div class="property-item border-box  featured">
-	<a href="http://demo.themetrail.com/realty/property/spacious-mansion/">
+	<a href="/report_page.php">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/westlot.png" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
@@ -430,7 +431,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</a>
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/spacious-mansion/"><h3 class="title">Broken street light</h3></a>
+			<a href="/report_page.php"><h3 class="title">Broken street light</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>
@@ -472,7 +473,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 					      </li>
 																											<li class="col-lg-4 col-md-6">
 <div class="property-item border-box">
-	<a href="http://demo.themetrail.com/realty/property/country-house/">
+	<a href="/report_page.php">
 		<figure class="property-thumbnail">
 			<img width="600" height="300" src="./images/report/fire_alarm.jpg" class=" wp-post-image" alt="" />			<figcaption>
 				<div class="property-excerpt">
@@ -484,7 +485,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</a>
 	<div class="property-content content">
 		<div class="property-title">
-			<a href="http://demo.themetrail.com/realty/property/country-house/"><h3 class="title">Faulty Alarm</h3></a>
+			<a href="/report_page.php"><h3 class="title">Faulty Alarm</h3></a>
 		</div>
 					<div class="property-meta clearfix">
 									<div>

@@ -1,3 +1,6 @@
+<?php
+	require_once("config.php");
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -6,14 +9,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="http://demo.themetrail.com/realty/xmlrpc.php">
-<title>Report Page</title>
+<title><?php echo INST_NAME;
+?> | Report Page</title>
                         <script>
                             /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
                             if ( typeof WebFontConfig === "undefined" ) {
                                 WebFontConfig = new Object();
                             }
                             WebFontConfig['google'] = {families: ['Source+Sans+Pro:400', 'Fira+Sans:400']};
-
                             (function() {
                                 var wf = document.createElement( 'script' );
                                 wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
@@ -72,17 +75,14 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://demo.themetrail.com/realty/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><style type="text/css" title="dynamic-css" class="options-output">body, .section-title span{background-color:#ffffff;}#header{background-color:#fff;}.top-header, .top-header a, .site-branding, .site-title a, .site-description a, .primary-menu a{color:#787878;}#header{font-family:"Source Sans Pro";opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading #header,{opacity: 0;}.ie.wf-loading #header,{visibility: hidden;}h1, h2, h3, h4, h5, h6{font-family:"Source Sans Pro";font-weight:400;color:#42484b;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading h1, h2, h3, h4, h5, h6,{opacity: 0;}.ie.wf-loading h1, h2, h3, h4, h5, h6,{visibility: hidden;}body{font-family:"Fira Sans";font-weight:400;color:#787878;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading body,{opacity: 0;}.ie.wf-loading body,{visibility: hidden;}#footer{background-color:#333;}#footer-bottom{background-color:#2e2e2e;}#footer .widget-title, #footer p{color:#ffffff;}</style>		<style>
 			/* Theme Option: Color Accent */
-
 						.property-image-container,
 			.property-image-container .property-item,
 			.property-image-container .loader-container {
 				height: 600px;
 			}
-
 			.text-primary {
 				color: #43becc;
 			}
-
 						.btn-primary,
 			.btn-primary:focus,
 			input[type='submit'],
@@ -109,7 +109,6 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 					background-color: #43becc;
 				}
 			}
-
 			input:focus,
 			.form-control:focus,
 			input:active,
@@ -120,38 +119,31 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 			#footer li.widget .wpcf7 input:not([type='submit']):focus,
 			.chosen-container.chosen-container-active .chosen-single, .chosen-container .chosen-drop {
 				border-color: #fff;			}
-
 			/*
 			.primary-tooltips .tooltip.top .tooltip-arrow,
 			.arrow-down,
 			.sticky .entry-header {
 				border-top-color: #43becc;
 			}
-
 			.primary-tooltips .tooltip.right .tooltip-arrow,
 			.arrow-left {
 				border-right-color: #43becc;
 			}
-
 			.primary-tooltips .tooltip.bottom .tooltip-arrow,
 			.arrow-up {
 				border-bottom-color: #43becc;
 			}
-
 			.primary-tooltips .tooltip.left .tooltip-arrow,
 			.arrow-right,
 			.property-slider .description .arrow-right {
 				border-left-color: #43becc;
 			}
 			*/
-
 			.property-slider .title { background-color: #43becc; }
 			.property-slider .description .arrow-right { border-left-color: #43becc; }
 			.property-slider .description .arrow-left { border-right-color: #43becc; }
 			.input--filled label::before, .form-control:focus + label::before { border-color: #43becc !important }
-
 			.rtl .property-slider .description .arrow-right { border-right-color: #43becc; border-left-color: transparent !important; }
-
 			/* Theme Option: Color Header */
 			.top-header,
 			.top-header a,
@@ -163,13 +155,11 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 			}
 			.map-controls li:nth-child(4){ display:none; }
 						span.multiselect-native-select{position:relative}span.multiselect-native-select select{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px -1px -1px -3px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;left:50%;top:30px}.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}.multiselect-container .input-group{margin:5px}.multiselect-container>li{padding:0}.multiselect-container>li>a.multiselect-all label{font-weight:700}.multiselect-container>li.multiselect-group label{margin:0;padding:3px 20px 3px 20px;height:100%;font-weight:700}.multiselect-container>li.multiselect-group-clickable label{cursor:pointer}.multiselect-container>li>a{padding:0}.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:400;padding:3px 20px 3px 40px}.multiselect-container>li>a>label.radio,.multiselect-container>li>a>label.checkbox{margin:0}.multiselect-container>li>a>label>input[type=checkbox]{margin-bottom:5px}.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{padding:3px 20px 3px 40px}.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{margin-left:-20px;margin-right:0}
-
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #fff;
 }
-
 /* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
@@ -181,17 +171,14 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
     transition: 0.3s;
     font-size: 14px;
 }
-
 /* Change background color of buttons on hover */
 .tab button:hover {
     background-color: #ddd;
 }
-
 /* Create an active/current tablink class */
 .tab button.active {
     background-color: #ccc;
 }
-
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -207,57 +194,36 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
      width:200px;
      padding:10px;
      background-color:none;
-
 }
 		</style>
 		<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 <!--[if lt IE 9]>
 <script src="http://demo.themetrail.com/realty/wp-content/themes/realty/lib/js/html5.js"></script>
 <![endif]-->
-
 </head>
-
-
 <header id="header">
-
-
 	<div class="top-header">
 		<div class="container">
 							<div class="top-header-sidebar">
-								<div class="textwidget"><a href="tel:7742131414">+1 774-213-1414</a> · <a href="mailto:info@311.dchr.host">info@311.dchr.host</a></div>
+								<div class="textwidget">[Serving: <?php echo INST_LOC;
+?>] · <a href="mailto:info@311.dchr.host">info@311.dchr.host</a></div>
 						</div>
-
 							<div class="top-header-links primary-tooltips">
-
-
-
-
-
 	<a href="#login-modal" data-toggle="modal">Login</a>
-
 				</div>
 		  		</div>
 	</div>
-
   <div class="container">
 		<div class="site-branding">
-
 		  					<p class="site-title"><a href="https://311.dchr.host" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
-
 	    	    <a id="toggle-navigation" class="navbar-togglex" href="#"><i></i></a>
 			<div class="mobile-menu-overlay hide"></div>
     </div>
-
-
   </div>
-
 </header>
 <body>
-
 <div id="content">
 <div id="page-user-favorites" class="container">
-
-
 		<h1 class="section-title style1 text-left"><span>Graffiti Near Beatty </span></h1>
 		<p> Thursday 10:15 AM mazzarellal </p>
 <h3 class="section-title"><span></span></h3>
@@ -282,14 +248,12 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <br>
 <style>
 * {box-sizing: border-box}
-
 /* Set height of body and the document to 100% */
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial;
 }
-
 /* Style tab links */
 .tablink {
     background-color: #fff;
@@ -302,11 +266,9 @@ body, html {
     font-size: 17px;
     width: 25%;
 }
-
 .tablink:hover {
     background-color: fff;
 }
-
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
     color: white;
@@ -315,18 +277,13 @@ body, html {
     height: 100%;
 	border: none;
 }
-
 #Home {background-color: fff;}
 #News {background-color: fff;}
-
 </style>
 </head>
 <body>
-
 <button class="tablink" onclick="openPage('Home', this, '#43becc')">Public Reply</button>
 <button class="tablink" onclick="openPage('News', this, '#43becc')" id="defaultOpen">Internal Note</button>
-
-
 <div id="Home" class="tabcontent">
 <textarea rows="4" cols="50"></textarea>
 <form action="/action_page.php">
@@ -335,7 +292,6 @@ body, html {
 <br>
 <input type="submit">Submit</input>
 </div>
-
 <div id="News" class="tabcontent">
 <textarea rows="4" cols="50"></textarea>
 <form action="/action_page.php">
@@ -344,10 +300,6 @@ body, html {
 <br>
 <input type="submit">Submit</input>
 </div>
-
-
-
-
 <script>
 function openPage(pageName,elmnt,color) {
     var i, tabcontent, tablinks;
@@ -361,14 +313,11 @@ function openPage(pageName,elmnt,color) {
     }
     document.getElementById(pageName).style.display = "block";
     elmnt.style.backgroundColor = color;
-
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
-
 </body>
-
 <h3 class="section-title"><span></span></h3>
 <b>Message from user: Mazzarellal<br>
 Hello PWD, <br><br>
@@ -388,14 +337,7 @@ Liz</b><br> </p>
 <br>
 <input type="submit" value="Submit">
 </form>
-
-
-
-
 </div>
-
-
-
 <script>
 function openCity(evt, contentName) {
     var i, tabcontent, tablinks;
@@ -412,56 +354,17 @@ function openCity(evt, contentName) {
 }
 </script>
 	</div>
-
 	<div id="property-layout-full-width">
-
-
-
-
-
-
-
-
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-1600x1050.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-1600x1050.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-1600x1050.jpg" class="property-image  zoom" title="One Story House" data-title="One Story House" data-hash="#"></div>
-
-
-
-
-
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-living-room-1600x1067.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-living-room-1600x1067.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-living-room-1600x1067.jpg" class="property-image  zoom" title="One Story House Livingroom" data-title="One Story House Livingroom" data-hash="#"></div>
-
-
-
-
-
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-4-1600x1067.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-4-1600x1067.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-4-1600x1067.jpg" class="property-image  zoom" title="One Story House 3" data-title="One Story House 3" data-hash="#"></div>
-
-
-
-
-
 									<div class="property-image  zoom" style="background-image: url(http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-1600x1067.jpg)" data-image="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-1600x1067.jpg" data-mfp-src="http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-1600x1067.jpg" class="property-image  zoom" title="One Story House 6" data-title="One Story House 6" data-hash="#"></div>
-
-
-
-
-
 	</div><!-- Property Carousel -->
-
-
 </div><!-- .property-image-container -->
-
-
 			<div id="main-content">
-
 								</div>
-
-
-
 			<script>
 				var map = null, markers = [], newMarkers = [], markerCluster = null, infobox = [], address = null;
-
-
 		var customIcon = new google.maps.MarkerImage(
 			'http://demo.themetrail.com/realty/wp-content/themes/realty/lib/images/map-marker/map-marker-green-fat.png',
 			null, // size is determined at runtime
@@ -469,9 +372,6 @@ function openCity(evt, contentName) {
 		  null, // anchor is bottom center of the scaled image
 		  new google.maps.Size(50, 69)
 		);
-
-
-
 		var markerClusterOptions = {
 			gridSize: 60, // Default: 60
 			maxZoom: 14,
@@ -481,9 +381,6 @@ function openCity(evt, contentName) {
 				url: "http://demo.themetrail.com/realty/wp-content/themes/realty/lib/images/map-marker/map-marker-gold-round.png"
 			}]
 		};
-
-
-
 					var customAltIcon = new google.maps.MarkerImage(
 				'http://demo.themetrail.com/realty/wp-content/themes/realty/lib/images/map-marker/map-marker-red-fat.png',
 			  null, // size is determined at runtime
@@ -491,7 +388,6 @@ function openCity(evt, contentName) {
 			  null, // anchor is bottom center of the scaled image
 			  new google.maps.Size(50, 69)
 			);
-
 		jQuery('.property-item').on('mouseenter', function(){
 			var data_sync_id = jQuery(this).attr('data-sync-id');
 			newMarkers[data_sync_id].setIcon(customAltIcon);
@@ -499,15 +395,11 @@ function openCity(evt, contentName) {
 			var data_sync_id = jQuery(this).attr('data-sync-id');
 			newMarkers[data_sync_id].setIcon(customIcon);
 		});
-
-
-
 				/**
 				 * initMap
 				 *
 				 */
 				function initMap() {
-
 					var	mapOptions = {
 						center: new google.maps.LatLng(51.486545, -0.16975860000002285),
 						zoom: 13,
@@ -516,34 +408,25 @@ function openCity(evt, contentName) {
 				    draggable: true,
 				    disableDefaultUI: true,
 					};
-
 					map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
 											if ( map_options.map_style !== '' ) {
 							var styles = JSON.parse(map_options.map_style);
 							map.setOptions( { styles: styles } );
 						}
-
 											address = "125 Oakley Street, London, UK";
 						//console.log(address);
-
 					markers = initMarkers(map, [ { permalink:'http://demo.themetrail.com/realty/property/futuristic-nest/', title:'Futuristic Nest', price:'$5,000&nbsp; per month', latLng: new google.maps.LatLng(51.486545, -0.16975860000002285), thumbnail: 'http://demo.themetrail.com/realty/wp-content/uploads/2015/10/realty-property-one-story-house-2-600x300.jpg' },
  ]);
-
 					// Spiderfier
 					var oms = new OverlappingMarkerSpiderfier(map, { markersWontMove: true, markersWontHide: true, keepSpiderfied: true, legWeight: 5 });
-
 					function omsMarkers( markers ) {
 					  for ( var i = 0; i < markers.length; i++ ) {
 							oms.addMarker( markers[i] );
 					  }
 					}
-
 					omsMarkers(markers);
-
 				}
 				google.maps.event.addDomListener(window, 'load', initMap);
-
 				/**
 				 * Get latLng from property address and grab it with callback, as geocode calls asynchonous
 				 *
@@ -561,26 +444,20 @@ function openCity(evt, contentName) {
 					  });
 				  }
 			  }
-
 				/**
 				 * initMarkers
 				 *
 				 */
 				function initMarkers(map, markerData) {
-
 											map.setCenter(new google.maps.LatLng(51.486545 , -0.16975860000002285));
-
 					var bounds = new google.maps.LatLngBounds();
-
 					for ( var i = 0; i < markerData.length; i++ ) {
-
 						marker = new google.maps.Marker({
 						map: map,
 						position: markerData[i].latLng,
 						icon: customIcon,
 						animation: google.maps.Animation.DROP
 						}),
-
 						infoboxOptions = {
 							content: 	'<div class="map-marker-wrapper">'+
 													'<div class="map-marker-container">'+
@@ -602,11 +479,8 @@ function openCity(evt, contentName) {
 						  closeBoxURL: "http://demo.themetrail.com/realty/wp-content/themes/realty/lib/images/close.png",
 						  infoBoxClearance: new google.maps.Size(25, 25)
 						};
-
 						newMarkers.push(marker);
-
 						newMarkers[i].infobox = new InfoBox(infoboxOptions);
-
 						google.maps.event.addListener(marker, 'click', (function(marker, i) {
 							return function() {
 								if ( newMarkers[i].infobox.getVisible() ) {
@@ -615,34 +489,25 @@ function openCity(evt, contentName) {
 									jQuery('.infoBox').hide();
 									newMarkers[i].infobox.show();
 								}
-
 								newMarkers[i].infobox.open(map, this);
 								map.setCenter(marker.getPosition());
 								map.panBy(0,-175);
 							}
 						})( marker, i ) );
-
 						google.maps.event.addListener(map, 'click', function() {
 							jQuery('.infoBox').hide();
 					  });
-
 						// Extend map bounds for this marker
 					  bounds.extend(markerData[i].latLng);
-
 					} // for (each marker)
-
 					// Create new map bounds to have all marker on the map
 					// If not on single-property.php, as only required for multiple markers
 										markerCluster = new MarkerClusterer(map, newMarkers, markerClusterOptions);
-
 					return newMarkers;
-
 				} // initMarkers()
 		  </script>
-
 		  		<script>
 			function map_controls() {
-
 				// Zoom In
 				google.maps.event.addDomListener(document.getElementById('zoom-in-595411243'), 'click', function () {
 					var currentZoom = map.getZoom();
@@ -652,7 +517,6 @@ function openCity(evt, contentName) {
 					}
 					map.setZoom(currentZoom);
 				});
-
 				// Zoom Out
 				google.maps.event.addDomListener(document.getElementById('zoom-out-595411243'), 'click', function () {
 					var currentZoom = map.getZoom();
@@ -662,35 +526,28 @@ function openCity(evt, contentName) {
 					}
 					map.setZoom(currentZoom);
 				});
-
 				// Map Type: Roadmap
 				google.maps.event.addDomListener(document.getElementById('map-type-roadmap-595411243'), 'click', function () {
 					map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
 				});
-
 				// Map Type: Satellite
 				google.maps.event.addDomListener(document.getElementById('map-type-satellite-595411243'), 'click', function () {
 					map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
 				});
-
 				// Map Type: Hybrid
 				google.maps.event.addDomListener(document.getElementById('map-type-hybrid-595411243'), 'click', function () {
 					map.setMapTypeId(google.maps.MapTypeId.HYBRID);
 				});
-
 				// Map Type: Terrain
 				google.maps.event.addDomListener(document.getElementById('map-type-terrain-595411243'), 'click', function () {
 					map.setMapTypeId(google.maps.MapTypeId.TERRAIN);
 				});
-
 				jQuery('.map-type li').click(function() {
 					jQuery('.map-type li').removeClass('active');
 					jQuery(this).addClass('active');
 				});
-
 				// Geolocation - Current Location
 				jQuery('#current-location-595411243').click(function() {
-
 					// Current Location Marker
 					var markerCurrent = new google.maps.Marker({
 					  //clickable: false,
@@ -701,9 +558,7 @@ function openCity(evt, contentName) {
 					  shadow: null,
 					  zIndex: null,
 					  map: map					});
-
 					jQuery(this).toggleClass('active');
-
 					if ( !jQuery('#current-location-595411243').hasClass('draw') ) {
 						// Create Loading Element
 					  var loading = document.createElement('div');
@@ -711,19 +566,14 @@ function openCity(evt, contentName) {
 				    loading.innerHTML = '<div class="svg-loader"></div>';
 				    document.getElementById('map').appendChild(loading);
 					}
-
 					// Current Position
 					if (navigator.geolocation) {
-
 						navigator.geolocation.getCurrentPosition(function(current) {
-
 					    var me = new google.maps.LatLng(current.coords.latitude, current.coords.longitude);
 					    markerCurrent.setPosition(me);
 							map.panTo(me);
-
 							// Remove Loader
 				    	loading.remove();
-
 							// https://developers.google.com/maps/documentation/javascript/examples/circle-simple
 							var currentRadiusCircleOptions = {
 					      strokeColor: '#00CFF0',
@@ -736,17 +586,12 @@ function openCity(evt, contentName) {
 					      visible: true,
 					      radius: 1000 // Unit: meter
 					    };
-
 					    // When Initializing
 							if ( !jQuery('#current-location-595411243').hasClass('draw') ) {
-
 						    // Create Circle
 						    currentRadiusCircle = new google.maps.Circle(currentRadiusCircleOptions);
-
 							}
-
 							jQuery('#current-location-595411243').addClass('draw');
-
 							// Toggle Crrent Location Icon & Circle
 							if ( jQuery('#current-location-595411243').hasClass('active') ) {
 								markerCurrent.setMap(map);
@@ -756,13 +601,10 @@ function openCity(evt, contentName) {
 								markerCurrent.setMap(null);
 								currentRadiusCircle.setMap(null);
 							}
-
 						});
-
 					} else {
 					  console.log("Current Position Not Found");
 					}
-
 					// Toggle Current Location Circle Visibility
 					google.maps.event.addListener(markerCurrent, 'click', (function() {
 						if ( currentRadiusCircle.getVisible() ) {
@@ -771,28 +613,13 @@ function openCity(evt, contentName) {
 					  	currentRadiusCircle.set( 'visible', true );
 						}
 					}));
-
 				});
-
 			}
 			google.maps.event.addDomListener(window, 'load', map_controls);
 		</script>
-
-
-
-
-
-
-
-
-
-
-
-
 	<script>
   	var contactFormCaptcha;
   	var getResponseContactForm;
-
     var onloadCallback = function() {
       contactFormCaptcha = grecaptcha.render('recaptcha_contact_form', {
         'sitekey' : '6Ldh-wMTAAAAAPLJAK6PQCsr3AvoBfFHVu1vaUik',
@@ -800,15 +627,11 @@ function openCity(evt, contentName) {
       });
     };
 	</script>
-
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
-
 	<script>
 		(function($) {
 		  "use strict";
-
 			$(document).ready(function() {
-
 			  $('#contact-form').validate({
 				  ignore: [],
 					rules: {
@@ -864,26 +687,14 @@ function openCity(evt, contentName) {
 						});
 					}
 				});
-
 			});
-
 		})(jQuery);
 	</script>
-
 </section>
-
-
-
-
-
-
 			<script>
 			(function($) {
 			  "use strict";
 				$(document).ready(function() {
-
-
-
 					var slider_similar_properties_carousel = $('#similar_properties_carousel')
 		       	.on('init', function(slick) {
 							$('#similar_properties_carousel').removeClass('hide-initially');
@@ -920,28 +731,19 @@ function openCity(evt, contentName) {
 			          },
 			        ],
 									      });
-
-
 		    });
 		  })(jQuery);
 	  </script>
-
-
-
 			</div><!-- #main-container -->
-
 					<script>
 			(function($) {
 			  "use strict";
 				$(document).ready(function() {
-
-
 												var windowHeight = jQuery(window).height();
 							var headerHeight = jQuery('#header').height();
 																			var sliderHeight = 600;
 							$('#property_image_slider .property-image').css( 'height', sliderHeight );
 																			$('#property_image_slider .property-image').css( 'height', sliderHeight );
-
 					var slider_property_image_slider = $('#property_image_slider')
 		       	.on('init', function(slick) {
 							$('#property_image_slider').removeClass('hide-initially');
@@ -984,11 +786,9 @@ function openCity(evt, contentName) {
 			        ],
 										        asNavFor: '#property-thumbnails',
 									      });
-
 		      					$('#property-thumbnails a').click(function(e) {
 						e.preventDefault();
 					});
-
 		      $('#property-thumbnails').slick({
 				      							asNavFor: '#property_image_slider',
 						  slidesToShow: 3,
@@ -1019,40 +819,22 @@ function openCity(evt, contentName) {
 			          },
 			        ],
 		      });
-
 		    });
 		  })(jQuery);
 	  </script>
-
 			</div><!-- .col-sm-9 -->
-
-
 		</div><!-- .row -->
 	</div><!-- .container -->
-
-
 </div><!-- #content -->
-
-
-
 	<footer class="site-footer" id="footer">
-
 		      <div class="site-footer-top" id="footer-top">
         <div class="container">
           <div class="row">
-
 	<div class="row">
-
-
-
-
 					<script>
 			(function($) {
 			  "use strict";
 				$(document).ready(function() {
-
-
-
 					var slider_agent_carousel_568013416 = $('#agent_carousel_568013416')
 		       	.on('init', function(slick) {
 							$('#agent_carousel_568013416').removeClass('hide-initially');
@@ -1090,31 +872,20 @@ function openCity(evt, contentName) {
 			          },
 			        ],
 									      });
-
-
 		    });
 		  })(jQuery);
 	  </script>
-
 		</div></li></ul></div>          </div>
         </div>
       </div>
-
 					<div class="site-footer-bottom" id="footer-bottom">
 					<				<div class="container">
 					<div class="row">
-
 		</div>							</div>
-
-
-
 											</div>
 				</div>
 			</div>
-
 	</footer>
-
-
 <script type="text/javascript">/* <![CDATA[ */ jQuery(document).ready( function() { jQuery.post( "http://demo.themetrail.com/realty/wp-admin/admin-ajax.php", { action : "entry_views", _ajax_nonce : "75f5df1010", post_id : 142 } ); } ); /* ]]> */</script>
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -1125,31 +896,21 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 <script type='text/javascript' src='http://demo.themetrail.com/realty/wp-content/themes/realty/assets/js/theme-main.min.js'></script>
 <script type='text/javascript' src='http://demo.themetrail.com/realty/wp-includes/js/comment-reply.min.js?ver=4.9.5'></script>
 <script type='text/javascript' src='http://demo.themetrail.com/realty/wp-includes/js/wp-embed.min.js?ver=4.9.5'></script>
-
 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
   <div class="modal-dialog login-modal-content">
     <div class="modal-content">
-
       <div class="modal-header">
       	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="screen-reader-text">Close</span></button>
       </div>
-
       <div class="modal-body">
-
 		<ul class="nav nav-tabs" role="tablist" style="margin-bottom: 1em;">
 			<li class="active"><a href="#tab-login" role="tab" data-toggle="tab">Login</a></li>
 			  	</ul>
-
 		<div class="tab-content">
-
 			<div class="tab-pane active" id="tab-login">
-
 					        <p id="msg-login-to-add-favorites" class="alert alert-info hide"><small>You have to be logged in to use this feature.</small></p>
-
-
 				<p class="alert alert-info">Username & password: "demo"</p>
 		<form name="loginform" id="loginform" action="http://demo.themetrail.com/realty/wp-login.php" method="post">
-
 			<p class="login-username">
 				<label for="user_login"></label>
 				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
@@ -1158,7 +919,6 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				<label for="user_pass"></label>
 				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
 			</p>
-
 			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
 			<p class="login-submit">
 				<input type="submit" name="wp-submit" id="wp-submit-login" class="button button-primary" value="Log In" />
@@ -1175,53 +935,34 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 					});
 				})(jQuery);
 				</script>
-
-
 			</div>
-
-
 		</div>
-
 		      </div>
-
     </div>
   </div>
 </div>	<script>
 		jQuery(document).ready(function($) {
-
 			// Social Sharing and video pop up
 			video_and_social_share();
-
 			jQuery('.search-results-view i').on('click',function() {
 			  jQuery('.search-results-view i').removeClass('active');
 			  jQuery(this).toggleClass('active');
 			  jQuery('.property-items').fadeTo( 300 , 0, function() {
 			  jQuery(this).fadeTo( 300, 1 );
 			});
-
 			setTimeout(function() {
 				jQuery('.property-items').attr( 'data-view', jQuery('.search-results-view i.active').attr('data-view') );
 			}, 300);
-
 			});
-
-
-
 		}); // END document.ready
-
 		//jQuery(window).load(function() {
-
 			var heightWindow = jQuery(window).height();
 			var windowWidth = jQuery(window).width();
 			var heightHeader = jQuery('#header').height();
 			var heightFullscreen = heightWindow - heightHeader;
-
-
-
 										if ( jQuery('.property-image-container').hasClass('cut') ) {
 					jQuery('.property-image-container .property-image, .property-image-container iframe').css( 'height', 600 );
 				}
-
 										jQuery('body.single-property .property-image').magnificPopup({
 					type: 		'image',
 					gallery: 	{
@@ -1231,20 +972,12 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 						tCounter: '%curr% | %total%'
 					}
 				});
-
-
-
 				jQuery('.datepicker').datepicker({
 				language: 'en',
 				autoclose: true,
 				isRTL: 'false',
 				format: 'mm/dd/yyyy',
-
 				});
-
-
-
-
 			// AJAX
 			function tt_ajax_search_results() {
 				"use strict";
@@ -1256,7 +989,6 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				}
 				var ajaxData = jQuery('.property-search-form').first().serialize() + "&action=tt_ajax_search&base=" + window.location.pathname;
 				jQuery.ajax({
-
 				  type: 'GET',
 				  url: ajax_object.ajax_url,
 				  data: ajaxData,
@@ -1268,11 +1000,8 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				  error: function () {
 				  	console.log( 'failed' );
 				  }
-
 				});
-
 			}
-
 			// Remove Map Markers & Marker Cluster
 			function removeMarkers() {
 				// http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/examples/speed_test.js
@@ -1291,9 +1020,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 			    newMarkers = [];
 			    bounds = [];
 			  }
-
 			}
-
 			// Fire Search Results Ajax On Search Field Change (Exclude Datepicker)
 			jQuery('.property-search-form select, .property-search-form input').not('.datepicker').on('change',function() {
 				loader();
@@ -1302,7 +1029,6 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				}
 				tt_ajax_search_results();
 			});
-
 			// Fire Search Results Ajax On Search Field "Datepicker" Change
 			jQuery('.property-search-form input.datepicker').on('changeDate', function() {
 				loader();
@@ -1311,33 +1037,26 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 				}
 				tt_ajax_search_results();
 			});
-
 			function loader() {
 				jQuery('.property-items').addClass('loading');
 				jQuery('.property-items').html('<div class="loader-container"><div class="svg-loader"></div></div>');
 			}
-
 			// AJAX script for pagination
 			jQuery(function($) {
 				$('.pagination-ajax a').live('click',function(e){
 					e.preventDefault();
-
 					var link_page = $(this).attr('href');
 					var page_number =  $(this).text();
-
 					if($(this).hasClass( "next" )){
 						var next_from = parseInt($('.pagination-ajax li span').text());
 						page_number = next_from + 1;
 					}
-
 					if($(this).hasClass( "prev" )){
 						var prev_from = parseInt($('.pagination-ajax li span').text());
 						page_number = prev_from - 1;
 					}
-
 					$('.property-items').fadeOut(500);
 					removeMarkers();
-
 					var ajaxData = jQuery('.property-search-form').first().serialize() + "&action=tt_ajax_search&base=" + window.location.pathname + "&pagenumber=" + page_number;
 					//console.log(ajaxData);
 					$.ajax({
@@ -1353,50 +1072,35 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 						console.log( 'failed' );
 						}
 					});
-
 				});
 			});
-
 			// END AJAX script for pagination
-
 		//}); // END window.load
-
-
 					jQuery('.menu-item-has-children, .menu-item-language').click(function() {
 			  if ( jQuery('body').hasClass('show-nav') ) {
 			    jQuery(this).find('.sub-menu').toggleClass('open');
 			  }
 			});
-
 		jQuery("#submit-profile-update").attr("disabled", "disabled");
 	</script>
-
 		<script>
-
 		jQuery('.container').on("click",'.add-to-favorites',function() {
-
 							jQuery('#msg-login-to-add-favorites').removeClass('hide');
 				jQuery('a[href="#tab-login"]').tab('show');
 				jQuery('#login-modal').modal();
 				jQuery('#login-modal').on('hidden.bs.modal', function () {
 					jQuery('#msg-login-to-add-favorites').addClass('hide');
 				});
-
 		});
 		</script>
-
-
 		<script>
 		jQuery('.container').on("click",'.add-to-follow',function() {
-
 								jQuery('a[href="#tab-login"]').tab('show');
 					jQuery('#login-modal').modal();
 					jQuery('#msg-login-to-add-follow').removeClass('hide');
 					jQuery('#msg-login-to-add-follow').addClass('hide');
-
 			});
 		</script>
-
 			<script>
 		// Check If item Already In Favorites Array
 		function inArray(needle, haystack) {
@@ -1406,48 +1110,34 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 	    }
 	    return false;
 		}
-
 		if ( !store.enabled ) {
 			throw new Error("Local storage is not supported by your browser. Please disable \&quot;Private Mode\&quot;, or upgrade to a modern browser.");
 	  }
-
 		jQuery('.container').on('click', '.compare-property', function() {
-
 			jQuery('#compare-properties-popup').show();
-
 		  // Check If Browser Supports LocalStorage
 			if ( !store.enabled ) {
 		    throw new Error("Local storage is not supported by your browser. Please disable \"Private Mode\", or upgrade to a modern browser.");
 		  }
-
 		  if ( store.get('comparison') ) {
-
 				var getComparisonAll = store.get('comparison');
 				var propertyToCompare = jQuery(this).attr('data-compare-id');
-
 				// Add To Comparison, If Its Not Already In It
 				if ( !inArray( propertyToCompare, getComparisonAll ) && getComparisonAll.length < 4 ) {
 					getComparisonAll.push( propertyToCompare );
 				}
-
 				store.set( 'comparison', getComparisonAll );
 				comparisonLength = getComparisonAll.length;
-
 			} else {
-
 				var arrayComparison = [];
 				arrayComparison.push( jQuery(this).attr('data-compare-id') );
 				store.set( 'comparison', arrayComparison );
 				var comparisonLength = store.get('comparison').length;
-
 			}
-
 			console.log( store.get('comparison') );
-
 			// Update Comparison Popup Thumbnails
 			var properties;
 			properties = store.get('comparison');
-
 			jQuery.ajax({
 			  type: 'GET',
 			  url: ajax_object.ajax_url,
@@ -1466,9 +1156,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/demo.themetrail.com\/realty\/wp-jso
 			  	}
 			  }
 			});
-
 		});
 		</script>
-
 </body>
 </html>
