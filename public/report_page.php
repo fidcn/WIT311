@@ -309,6 +309,10 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 		<h1 class="section-title style1 text-left"><span>Broken Washing Machine/Dryer</span></h1>
 		<p> Thursday 10:15 AM mazzarellal </p>
 <h3 class="section-title"><span></span></h3>
+<input type="text" id="subdomaintwo" value="Ticket ID: #510" disabled/>
+<input type="text" id="subdomaintwo" value="Name: LizMary Mazzarella" disabled/>
+<input type="text" id="subdomaintwo" value="Phone Number: 555-555-5555" disabled/>
+<input type="text" id="subdomaintwo" value="Address: 555 Huntington Ave" disabled/>
 <style>
 * {box-sizing: border-box}
 
@@ -389,12 +393,8 @@ document.getElementById("defaultOpen").click();
      
 </body>
 
-<input type="text" id="subdomaintwo" value="Ticket ID: #510" disabled/>
-<input type="text" id="subdomaintwo" value="Name: LizMary Mazzarella" disabled/>
-<input type="text" id="subdomaintwo" value="Phone Number: 555-555-5555" disabled/>
-<input type="text" id="subdomaintwo" value="Address: 555 Huntington Ave" disabled/>
 <h3 class="section-title"><span></span></h3>
-<p>Mazzarellal<br>
+Message from user: Mazzarellal<br>
 Hello PWD, <br><br>
 The washing machine in 555's basement has stopped working. Could this be fixed soon?<br>
 Thanks, <br><br>
