@@ -164,7 +164,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	<div class="top-header">
 		<div class="container">
 							<div class="top-header-sidebar">
-								<div class="textwidget"><a href="tel:00155522668890">+1 555 22 66 8890</a> · <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></div>
+<div class="textwidget"><a href="tel:7742131414">+1 774-213-1414</a><a href="mailto:info@311.dchr.host">info@311.dchr.host</a></div>
 						</div>
 							<div class="top-header-links primary-tooltips">
 	<a href="http://demo.themetrail.com/realty/favorites/">
@@ -192,7 +192,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</div>
   <div class="container">
 		<div class="site-branding">
-		  					<p class="site-title"><a href="https://311.dchr.host" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
+		  					<p class="site-title"><a href="index.php" rel="home"><img width="124" height="23" src="./images/logo.png" class="site-logo" alt="" srcset="./images/logo.png 2x" /></a></p>
 	    	    <a id="toggle-navigation" class="navbar-togglex" href="#"><i></i></a>
 			<div class="mobile-menu-overlay hide"></div>
     </div>
@@ -269,7 +269,11 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	</a>
 	<div class="property-content content">
 		<div class="property-title">
+<<<<<<< HEAD
 			<a href="/report_page.php"><h3 class="title">Graffiti Near Beatty</h3></a>
+=======
+			<a href="report_page.php"><h3 class="title">Graffiti Near Beatty</h3></a>
+>>>>>>> 4ca0879312044323a763801019bd167e87caf75d
 		</div>
 					<div class="property-meta clearfix">
 									<div>
