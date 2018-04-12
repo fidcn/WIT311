@@ -163,7 +163,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 	<div class="top-header">
 		<div class="container">
 							<div class="top-header-sidebar">
-								<div class="textwidget"><a href="tel:00155522668890">+1 555 22 66 8890</a> · <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></div>
+<div class="textwidget"><a href="tel:7742131414">+1 774-213-1414</a><a href="mailto:info@311.dchr.host">info@311.dchr.host</a></div>
 						</div>
 							<div class="top-header-links primary-tooltips">
 	<a href="http://demo.themetrail.com/realty/favorites/">
