@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="http://demo.themetrail.com/realty/xmlrpc.php">
-<title>Favorite Properties &#8211; Realty</title>
+<title>Open Tickets &#8211;</title>
                         <script>
                             /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
                             if ( typeof WebFontConfig === "undefined" ) {
@@ -174,7 +174,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
 <body class="page-template page-template-template-user-favorites page-template-template-user-favorites-php page page-id-193 logged-in wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
 
 
-<header id="header">
+<!-- <header id="header">
 
 	
 	<div class="top-header">
@@ -230,7 +230,7 @@ var map_options = {"map_style":"[{\"featureType\":\"landscape\",\"stylers\":[{\"
     </div>
 
 		<nav class="main-navigation" id="navigation">
-			<ul id="menu-main-menu" class="primary-menu"><li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256"><a href="#">Home</a>
+			<ul id="menu-main-menu" class="primary-menu"><li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256"><a href="#">Home</a> -->
 <ul class="sub-menu">
 	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="http://demo.themetrail.com/realty/slideshow-property/">Property Slideshow (Full Width)</a></li>
 	<li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a href="http://demo.themetrail.com/realty/slideshow-search/">Property Slideshow (Search)</a></li>
